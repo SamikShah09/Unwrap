@@ -115,76 +115,49 @@ function playCurrentClue() {
         return;
     }
 
-    // Completely stop and clean up any existing audio
+    // 1. Completely clean up old audio
     if (state.audio) {
         state.audio.pause();
         state.audio.src = "";
-        state.audio.load();
         state.audio = null;
     }
     state.isPlaying = false;
 
-    // Create fresh audio element
+    // 2. Create fresh audio element
     const audio = new Audio();
     audio.preload = "auto";
     
-    // Add cache-buster timestamp
-    const src = basePath + "?v=" + Date.now();
+    // 3. Set source DIRECTLY. NO query parameters.
+    audio.src = basePath; 
     
-    let playPromise = null;
-    let hasEnded = false;
-
-    audio.addEventListener('loadeddata', () => {
-        console.log("Audio loaded successfully:", src);
-        if (!hasEnded) {
-            playPromise = audio.play();
-            if (playPromise) {
-                playPromise.catch(err => {
-                    if (err.name !== 'AbortError') {
-                        console.error("Playback failed:", err);
-                        setFeedback("Click play button again to start", "error");
-                    }
-                    state.isPlaying = false;
-                    renderTrackPanel();
-                });
-            }
-        }
-    });
-
-    audio.addEventListener('error', (e) => {
-        console.error("Audio error:", audio.error, e);
-        if (!hasEnded) {
-            setFeedback("Failed to load audio. Try again.", "error");
-            state.isPlaying = false;
-            renderTrackPanel();
-        }
-    });
-
+    // 4. Event listeners
     audio.addEventListener('ended', () => {
-        hasEnded = true;
         state.isPlaying = false;
         renderTrackPanel();
         $("play-clue-btn").textContent = "Play Clue " + (state.clueIndex + 1) + " again";
     });
 
-    audio.addEventListener('abort', () => {
-        console.log("Audio playback was aborted");
-        if (!hasEnded) {
-            state.isPlaying = false;
-            renderTrackPanel();
-        }
+    audio.addEventListener('error', (e) => {
+        console.error("Audio load error:", audio.error);
+        // Code 4 means Safari doesn't support the format or the file is blocked.
+        setFeedback("Safari blocked the audio. Try using Chrome.", "error");
+        state.isPlaying = false;
+        renderTrackPanel();
     });
 
-    // Set source and load
-    audio.src = src;
-    audio.load();
-    
+    // 5. Assign and play
     state.audio = audio;
     state.isPlaying = true;
     renderTrackPanel();
     $("play-clue-btn").textContent = "Playing Clue " + (state.clueIndex + 1) + " of " + TOTAL_CLUES + "...";
+    
+    audio.play().catch(err => {
+        console.error("Play failed:", err);
+        setFeedback("Click play button again to start", "error");
+        state.isPlaying = false;
+        renderTrackPanel();
+    });
 }
-
 function renderTrackPanel() {
     let html = "";
     for (let i = 0; i < STAGE_CONFIG.length; i++) {
