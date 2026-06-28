@@ -109,32 +109,68 @@ function stopAudio() {
 function playCurrentClue() {
     if (!state.currentSong || state.gameOver) return;
 
-    // Safety check: Ensure the stage exists in the JSON
     const basePath = state.currentSong.stages ? state.currentSong.stages[state.clueIndex] : null;
     if (!basePath) {
         setFeedback("Audio file missing for this clue. Try skipping.", "error");
         return;
     }
 
-    // CACHE-BUSTER: Adds a timestamp to force Safari/Chrome to ignore old failed attempts
-    const stagePath = basePath + "?v=" + Date.now();
-
+    // Stop any existing audio first
     stopAudio();
-    state.audio = new Audio(stagePath);
 
-    state.audio.addEventListener("ended", () => {
+    // Create a new audio element
+    const audio = new Audio();
+    
+    // Set up error handling BEFORE setting the source
+    let loadTimeout;
+    let playAttempted = false;
+    
+    audio.addEventListener('canplaythrough', () => {
+        clearTimeout(loadTimeout);
+        if (!playAttempted) {
+            playAttempted = true;
+            audio.play().catch(err => {
+                console.error("Play failed:", err);
+                setFeedback("Audio playback failed. Try clicking again.", "error");
+                state.isPlaying = false;
+                renderTrackPanel();
+            });
+        }
+    });
+    
+    audio.addEventListener('error', (e) => {
+        clearTimeout(loadTimeout);
+        console.error("Audio load error:", audio.error);
+        setFeedback("Failed to load audio. File may be corrupted.", "error");
+        state.isPlaying = false;
+        renderTrackPanel();
+    });
+    
+    audio.addEventListener('ended', () => {
         state.isPlaying = false;
         renderTrackPanel();
         $("play-clue-btn").textContent = "Play Clue " + (state.clueIndex + 1) + " again";
     });
 
-    state.audio.play().catch(err => {
-        console.error("Audio playback error:", err);
-        setFeedback("Could not play audio. Check Console for details.", "error");
-        state.isPlaying = false;
-        renderTrackPanel();
-    });
-
+    // Set the source with cache-buster
+    audio.src = basePath + "?t=" + Date.now();
+    audio.load();
+    
+    // Set a timeout in case canplaythrough never fires
+    loadTimeout = setTimeout(() => {
+        if (!playAttempted) {
+            console.warn("Audio loading timeout, attempting play anyway");
+            playAttempted = true;
+            audio.play().catch(err => {
+                console.error("Play failed after timeout:", err);
+                setFeedback("Audio loading slowly. Try again.", "error");
+                state.isPlaying = false;
+                renderTrackPanel();
+            });
+        }
+    }, 3000);
+    
+    state.audio = audio;
     state.isPlaying = true;
     renderTrackPanel();
     $("play-clue-btn").textContent = "Playing Clue " + (state.clueIndex + 1) + " of " + TOTAL_CLUES + "...";
