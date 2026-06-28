@@ -115,60 +115,69 @@ function playCurrentClue() {
         return;
     }
 
-    // Stop any existing audio first
-    stopAudio();
+    // Completely stop and clean up any existing audio
+    if (state.audio) {
+        state.audio.pause();
+        state.audio.src = "";
+        state.audio.load();
+        state.audio = null;
+    }
+    state.isPlaying = false;
 
-    // Create a new audio element
+    // Create fresh audio element
     const audio = new Audio();
+    audio.preload = "auto";
     
-    // Set up error handling BEFORE setting the source
-    let loadTimeout;
-    let playAttempted = false;
+    // Add cache-buster timestamp
+    const src = basePath + "?v=" + Date.now();
     
-    audio.addEventListener('canplaythrough', () => {
-        clearTimeout(loadTimeout);
-        if (!playAttempted) {
-            playAttempted = true;
-            audio.play().catch(err => {
-                console.error("Play failed:", err);
-                setFeedback("Audio playback failed. Try clicking again.", "error");
-                state.isPlaying = false;
-                renderTrackPanel();
-            });
+    let playPromise = null;
+    let hasEnded = false;
+
+    audio.addEventListener('loadeddata', () => {
+        console.log("Audio loaded successfully:", src);
+        if (!hasEnded) {
+            playPromise = audio.play();
+            if (playPromise) {
+                playPromise.catch(err => {
+                    if (err.name !== 'AbortError') {
+                        console.error("Playback failed:", err);
+                        setFeedback("Click play button again to start", "error");
+                    }
+                    state.isPlaying = false;
+                    renderTrackPanel();
+                });
+            }
         }
     });
-    
+
     audio.addEventListener('error', (e) => {
-        clearTimeout(loadTimeout);
-        console.error("Audio load error:", audio.error);
-        setFeedback("Failed to load audio. File may be corrupted.", "error");
-        state.isPlaying = false;
-        renderTrackPanel();
+        console.error("Audio error:", audio.error, e);
+        if (!hasEnded) {
+            setFeedback("Failed to load audio. Try again.", "error");
+            state.isPlaying = false;
+            renderTrackPanel();
+        }
     });
-    
+
     audio.addEventListener('ended', () => {
+        hasEnded = true;
         state.isPlaying = false;
         renderTrackPanel();
         $("play-clue-btn").textContent = "Play Clue " + (state.clueIndex + 1) + " again";
     });
 
-    // Set the source with cache-buster
-    audio.src = basePath + "?t=" + Date.now();
-    audio.load();
-    
-    // Set a timeout in case canplaythrough never fires
-    loadTimeout = setTimeout(() => {
-        if (!playAttempted) {
-            console.warn("Audio loading timeout, attempting play anyway");
-            playAttempted = true;
-            audio.play().catch(err => {
-                console.error("Play failed after timeout:", err);
-                setFeedback("Audio loading slowly. Try again.", "error");
-                state.isPlaying = false;
-                renderTrackPanel();
-            });
+    audio.addEventListener('abort', () => {
+        console.log("Audio playback was aborted");
+        if (!hasEnded) {
+            state.isPlaying = false;
+            renderTrackPanel();
         }
-    }, 3000);
+    });
+
+    // Set source and load
+    audio.src = src;
+    audio.load();
     
     state.audio = audio;
     state.isPlaying = true;
