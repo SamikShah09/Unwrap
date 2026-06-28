@@ -3,357 +3,140 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StemGuesser</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
+  <title>Unwrap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg:       #09090F;
-      --surface:  #11131C;
-      --surface2: #191C2B;
-      --border:   #21253A;
-      --primary:  #6D28D9;
-      --primary2: #8B5CF6;
-      --amber:    #D97706;
-      --amber2:   #F59E0B;
-      --success:  #059669;
-      --success2: #10B981;
-      --error:    #DC2626;
-      --text:     #F1F5F9;
-      --muted:    #4B5680;
-      --radius:   12px;
+      --bg: #09090F; --surface: #11131C; --surface2: #191C2B; --border: #21253A;
+      --primary: #6D28D9; --primary2: #8B5CF6; --amber: #D97706; --amber2: #F59E0B;
+      --success: #059669; --success2: #10B981; --error: #DC2626;
+      --text: #F1F5F9; --muted: #4B5680; --radius: 12px;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Space Grotesk', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+    code { font-family: 'Courier New', monospace; background: var(--surface2); padding: 2px 6px; border-radius: 4px; font-size: 0.85em; }
 
-    body {
-      font-family: 'Space Grotesk', system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    code {
-      font-family: 'Courier New', monospace;
-      background: var(--surface2);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.85em;
-    }
-
-    header {
-      width: 100%;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 0 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      height: 56px;
-      flex-shrink: 0;
-    }
-
-    .logo {
-      font-size: 1.05rem;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      white-space: nowrap;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .logo-mark {
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      background: var(--amber);
-      box-shadow: 0 0 8px var(--amber);
-      flex-shrink: 0;
-    }
-
+    header { width: 100%; background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; height: 56px; flex-shrink: 0; }
+    .logo { font-size: 1.05rem; font-weight: 800; letter-spacing: -0.5px; white-space: nowrap; display: flex; align-items: center; gap: 8px; }
+    .logo-mark { width: 9px; height: 9px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 8px var(--amber); flex-shrink: 0; }
     .mode-nav { display: flex; gap: 4px; }
-
-    .mode-btn {
-      padding: 6px 14px;
-      background: transparent;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      color: var(--muted);
-      font-family: inherit;
-      font-size: 0.78rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: border-color 0.15s, color 0.15s, background 0.15s;
-      white-space: nowrap;
-    }
-
+    .mode-btn { padding: 6px 14px; background: transparent; border: 1px solid var(--border); border-radius: 8px; color: var(--muted); font-family: inherit; font-size: 0.78rem; font-weight: 600; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
     .mode-btn:hover { border-color: var(--primary2); color: var(--text); }
     .mode-btn-active { background: var(--primary); border-color: var(--primary); color: #fff; }
-
     .stats { display: flex; gap: 20px; flex-shrink: 0; }
     .stat { text-align: center; }
     .stat-value { font-size: 1.2rem; font-weight: 800; color: var(--primary2); line-height: 1; }
     .stat-label { font-size: 0.6rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
 
-    #custom-panel {
-      width: 100%;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 20px;
-    }
-
+    #custom-panel { width: 100%; background: var(--surface); border-bottom: 1px solid var(--border); padding: 20px; }
     .custom-inner { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
     .custom-title { font-size: 1rem; font-weight: 700; }
     .custom-desc { font-size: 0.82rem; color: var(--muted); }
-
-    #song-picker {
-      width: 100%;
-      padding: 11px 14px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
-      font-family: inherit;
-      font-size: 0.9rem;
-      cursor: pointer;
-      outline: none;
-    }
+    #song-picker { width: 100%; padding: 11px 14px; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: inherit; font-size: 0.9rem; cursor: pointer; outline: none; }
     #song-picker:focus { border-color: var(--primary); }
-
     .link-row { display: flex; gap: 8px; }
-
-    #custom-link {
-      flex: 1;
-      padding: 10px 14px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--muted);
-      font-family: 'Courier New', monospace;
-      font-size: 0.78rem;
-      outline: none;
-    }
-
-    #copy-link-btn {
-      padding: 10px 18px;
-      background: var(--primary);
-      color: #fff;
-      border: none;
-      border-radius: var(--radius);
-      font-family: inherit;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: background 0.15s;
-    }
+    #custom-link { flex: 1; padding: 10px 14px; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--muted); font-family: 'Courier New', monospace; font-size: 0.78rem; outline: none; }
+    #copy-link-btn { padding: 10px 18px; background: var(--primary); color: #fff; border: none; border-radius: var(--radius); font-family: inherit; font-size: 0.82rem; font-weight: 700; cursor: pointer; white-space: nowrap; transition: background 0.15s; }
     #copy-link-btn:hover { background: var(--primary2); }
-
-    #play-custom-btn {
-      width: 100%;
-      padding: 12px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
-      font-family: inherit;
-      font-size: 0.9rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: border-color 0.15s, background 0.15s;
-    }
+    #play-custom-btn { width: 100%; padding: 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: inherit; font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: all 0.15s; }
     #play-custom-btn:hover { border-color: var(--primary2); background: rgba(109, 40, 217, 0.1); }
 
     main { width: 100%; max-width: 500px; padding: 24px 16px 48px; display: flex; flex-direction: column; gap: 12px; }
-
     .card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 22px; }
-
     .game-meta { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
     #mode-badge { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; color: var(--primary2); }
     .clue-counter { font-size: 0.72rem; color: var(--muted); font-weight: 600; }
-
     #pips-bar { display: flex; gap: 5px; margin-bottom: 16px; }
     .pip { flex: 1; height: 4px; border-radius: 2px; background: var(--border); transition: background 0.3s; }
-    .pip-done   { background: var(--success); }
+    .pip-done { background: var(--success); }
     .pip-active { background: var(--primary); }
 
     #clue-content { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
-
-    .track {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 12px;
-      border-radius: 10px;
-      border: 1px solid transparent;
-      transition: all 0.25s;
-      min-height: 52px;
-    }
+    .track { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 10px; border: 1px solid transparent; transition: all 0.25s; min-height: 52px; }
     .track-locked { opacity: 0.22; }
     .track-active { background: rgba(109, 40, 217, 0.08); border-color: rgba(109, 40, 217, 0.28); }
     .track-playing { background: rgba(109, 40, 217, 0.14); border-color: rgba(109, 40, 217, 0.5); }
     .track-done { background: rgba(5, 150, 105, 0.06); border-color: rgba(5, 150, 105, 0.18); opacity: 0.6; }
-
-    .track-badge {
-      font-size: 0.6rem;
-      font-weight: 800;
-      letter-spacing: 0.8px;
-      padding: 4px 7px;
-      border-radius: 5px;
-      flex-shrink: 0;
-      width: 52px;
-      text-align: center;
-    }
-    .badge-drums  { background: #3B1A00; color: #FDE68A; }
-    .badge-bass   { background: #0C1F3F; color: #93C5FD; }
+    .track-badge { font-size: 0.6rem; font-weight: 800; letter-spacing: 0.8px; padding: 4px 7px; border-radius: 5px; flex-shrink: 0; width: 52px; text-align: center; }
+    .badge-drums { background: #3B1A00; color: #FDE68A; }
+    .badge-bass { background: #0C1F3F; color: #93C5FD; }
     .badge-guitar { background: #3B0808; color: #FCA5A5; }
-    .badge-piano  { background: #1E0A4F; color: #C4B5FD; }
-    .badge-other  { background: #02251A; color: #6EE7B7; }
+    .badge-piano { background: #1E0A4F; color: #C4B5FD; }
+    .badge-other { background: #02251A; color: #6EE7B7; }
     .badge-vocals { background: #2D0847; color: #F0ABFC; }
-    .badge-full   { background: #111827; color: #9CA3AF; }
-
+    .badge-full { background: #111827; color: #9CA3AF; }
     .track-body { flex: 1; min-width: 0; }
     .track-label { font-size: 0.85rem; font-weight: 700; line-height: 1.2; }
     .track-hint { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
-
     .track-bars { display: flex; align-items: center; gap: 3px; height: 20px; flex-shrink: 0; }
     .track-bars span { display: block; width: 3px; height: 4px; border-radius: 2px; background: var(--border); transition: background 0.2s; }
-    .track-active  .track-bars span { background: rgba(109,40,217,0.5); }
-    .track-done    .track-bars span { background: var(--success); }
+    .track-active .track-bars span { background: rgba(109,40,217,0.5); }
+    .track-done .track-bars span { background: var(--success); }
     .track-playing .track-bars span { background: var(--primary2); animation: bar-wave 0.75s ease-in-out infinite; animation-delay: calc(var(--i) * 0.13s); }
-
     @keyframes bar-wave { 0%, 100% { height: 4px; } 50% { height: 18px; } }
 
-    #play-clue-btn {
-      width: 100%;
-      padding: 14px;
-      background: var(--amber);
-      color: #000;
-      border: none;
-      border-radius: var(--radius);
-      font-family: inherit;
-      font-size: 0.95rem;
-      font-weight: 800;
-      cursor: pointer;
-      transition: background 0.15s, transform 0.1s;
-      letter-spacing: -0.2px;
-    }
-    #play-clue-btn:hover  { background: var(--amber2); }
+    #play-clue-btn { width: 100%; padding: 14px; background: var(--amber); color: #000; border: none; border-radius: var(--radius); font-family: inherit; font-size: 0.95rem; font-weight: 800; cursor: pointer; transition: all 0.15s; letter-spacing: -0.2px; }
+    #play-clue-btn:hover { background: var(--amber2); }
     #play-clue-btn:active { transform: scale(0.98); }
 
+    /* AUTOCOMPLETE DROPDOWN STYLES */
     .input-row { display: flex; gap: 8px; margin-top: 14px; }
-
-    #guess-input {
-      flex: 1;
-      padding: 12px 14px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
-      font-family: inherit;
-      font-size: 0.9rem;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-    #guess-input:focus        { border-color: var(--primary); }
+    .input-wrapper { flex: 1; position: relative; }
+    #guess-input { width: 100%; padding: 12px 14px; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: inherit; font-size: 0.9rem; outline: none; transition: border-color 0.2s; }
+    #guess-input:focus { border-color: var(--primary); }
     #guess-input::placeholder { color: var(--muted); }
-
-    #submit-btn {
-      padding: 12px 18px;
-      background: var(--success);
-      color: #fff;
-      border: none;
-      border-radius: var(--radius);
-      font-family: inherit;
-      font-size: 0.9rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: opacity 0.15s, transform 0.1s;
+    
+    #autocomplete-dropdown {
+      position: absolute; top: 100%; left: 0; width: 100%;
+      max-height: 200px; overflow-y: auto;
+      background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius);
+      margin-top: 4px; z-index: 100; display: none;
     }
-    #submit-btn:hover  { opacity: 0.88; }
+    .ac-item { padding: 10px 14px; cursor: pointer; font-size: 0.85rem; border-bottom: 1px solid var(--border); }
+    .ac-item:last-child { border-bottom: none; }
+    .ac-item:hover { background: var(--primary); color: #fff; }
+    .ac-item .ac-artist { color: var(--muted); font-size: 0.75rem; display: block; margin-top: 2px; }
+    .ac-item:hover .ac-artist { color: #ddd; }
+
+    #submit-btn { padding: 12px 18px; background: var(--success); color: #fff; border: none; border-radius: var(--radius); font-family: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer; transition: all 0.15s; }
+    #submit-btn:hover { opacity: 0.88; }
     #submit-btn:active { transform: scale(0.97); }
 
-    .skip-row { display: flex; justify-content: center; margin-top: 10px; }
-
-    #skip-btn {
-      padding: 7px 20px;
-      background: transparent;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      color: var(--muted);
-      font-family: inherit;
-      font-size: 0.78rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: border-color 0.15s, color 0.15s;
-    }
+    .skip-row { display: flex; justify-content: center; gap: 12px; margin-top: 10px; }
+    #skip-clue-btn, #skip-btn { padding: 7px 16px; background: transparent; border: 1px solid var(--border); border-radius: 8px; color: var(--muted); font-family: inherit; font-size: 0.78rem; font-weight: 600; cursor: pointer; transition: all 0.15s; }
+    #skip-clue-btn:hover { border-color: var(--primary2); color: var(--primary2); }
     #skip-btn:hover { border-color: var(--error); color: var(--error); }
 
     #feedback { min-height: 20px; margin-top: 12px; font-size: 0.85rem; font-weight: 600; text-align: center; }
-    #feedback.error   { color: var(--error); }
+    #feedback.error { color: var(--error); }
     #feedback.success { color: var(--success2); }
 
     #result-screen { text-align: center; }
     .result-title { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 8px; }
-    .result-win  { color: var(--success2); }
+    .result-win { color: var(--success2); }
     .result-skip { color: var(--error); }
-
     #result-song { color: var(--muted); font-size: 0.9rem; line-height: 1.7; margin-bottom: 18px; }
     #result-song strong { color: var(--text); }
-    .artist-name        { color: var(--primary2); }
-
+    .artist-name { color: var(--primary2); }
     .result-grid-row { display: flex; justify-content: center; gap: 5px; margin-bottom: 22px; }
     .grid-cell { width: 26px; height: 26px; border-radius: 5px; }
-    .cell-miss  { background: #374151; }
-    .cell-win   { background: var(--success); }
+    .cell-miss { background: #374151; }
+    .cell-win { background: var(--success); }
     .cell-empty { background: var(--surface2); border: 1px solid var(--border); }
-
     .result-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-
-    #share-btn {
-      padding: 12px 22px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
-      font-family: inherit;
-      font-size: 0.9rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: border-color 0.15s, background 0.15s;
-    }
+    #share-btn { padding: 12px 22px; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer; transition: all 0.15s; }
     #share-btn:hover { border-color: var(--primary2); background: rgba(109,40,217,0.12); }
-
-    #next-btn {
-      padding: 12px 22px;
-      background: var(--primary);
-      color: #fff;
-      border: none;
-      border-radius: var(--radius);
-      font-family: inherit;
-      font-size: 0.9rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, transform 0.1s;
-    }
-    #next-btn:hover  { background: var(--primary2); }
+    #next-btn { padding: 12px 22px; background: var(--primary); color: #fff; border: none; border-radius: var(--radius); font-family: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer; transition: all 0.15s; }
+    #next-btn:hover { background: var(--primary2); }
     #next-btn:active { transform: scale(0.98); }
-
     .load-error { color: var(--error); font-size: 0.88rem; line-height: 1.6; text-align: center; padding: 20px 0; }
 
     @media (max-width: 440px) {
-      header       { height: auto; padding: 10px 14px; flex-wrap: wrap; gap: 8px; }
-      .mode-nav    { order: 3; width: 100%; justify-content: center; }
-      .mode-btn    { font-size: 0.72rem; padding: 5px 10px; }
-      .stats       { gap: 14px; }
-      .card        { padding: 16px; }
+      header { height: auto; padding: 10px 14px; flex-wrap: wrap; gap: 8px; }
+      .mode-nav { order: 3; width: 100%; justify-content: center; }
+      .mode-btn { font-size: 0.72rem; padding: 5px 10px; }
+      .stats { gap: 14px; }
+      .card { padding: 16px; }
       .track-badge { width: 44px; font-size: 0.55rem; }
       .track-label { font-size: 0.8rem; }
     }
@@ -362,45 +145,27 @@
 <body>
 
   <header>
-    <div class="logo">
-      <div class="logo-mark"></div>
-      StemGuesser
-    </div>
-
+    <div class="logo"><div class="logo-mark"></div>Unwrap</div>
     <nav class="mode-nav">
-      <button id="btn-daily"  class="mode-btn mode-btn-active">Daily</button>
+      <button id="btn-daily" class="mode-btn mode-btn-active">Daily</button>
       <button id="btn-random" class="mode-btn">Random</button>
       <button id="btn-custom" class="mode-btn">Make Custom</button>
     </nav>
-
     <div class="stats">
-      <div class="stat">
-        <div id="score"  class="stat-value">0</div>
-        <div class="stat-label">Score</div>
-      </div>
-      <div class="stat">
-        <div id="streak" class="stat-value">0</div>
-        <div class="stat-label">Streak</div>
-      </div>
+      <div class="stat"><div id="score" class="stat-value">0</div><div class="stat-label">Score</div></div>
+      <div class="stat"><div id="streak" class="stat-value">0</div><div class="stat-label">Streak</div></div>
     </div>
   </header>
 
   <div id="custom-panel" style="display:none;">
     <div class="custom-inner">
       <div class="custom-title">Create a Custom Challenge</div>
-      <div class="custom-desc">
-        Pick a song below. Copy the link and send it to someone.
-        When they open it, they play that exact song.
-      </div>
-
+      <div class="custom-desc">Pick a song below. Copy the link and send it to someone.</div>
       <select id="song-picker"></select>
-
       <div class="link-row">
-        <input type="text" id="custom-link" readonly
-               placeholder="Your shareable link will appear here" />
+        <input type="text" id="custom-link" readonly placeholder="Your shareable link will appear here" />
         <button id="copy-link-btn">Copy Link</button>
       </div>
-
       <button id="play-custom-btn">Play This Song Yourself</button>
     </div>
   </div>
@@ -409,29 +174,23 @@
     <div id="game-area" class="card">
       <div class="game-meta">
         <div id="mode-badge">Daily Challenge</div>
-        <div class="clue-counter">
-          Clue <strong id="current-level">1</strong> of 7
-        </div>
+        <div class="clue-counter">Clue <strong id="current-level">1</strong> of 7</div>
       </div>
-
       <div id="pips-bar"></div>
       <div id="clue-content"></div>
-
       <button id="play-clue-btn">Play Clue 1 of 7</button>
 
       <div class="input-row">
-        <input
-          id="guess-input"
-          type="text"
-          placeholder="Song title..."
-          autocomplete="off"
-          spellcheck="false"
-        />
+        <div class="input-wrapper">
+          <input id="guess-input" type="text" placeholder="Song title..." autocomplete="off" spellcheck="false" />
+          <div id="autocomplete-dropdown"></div>
+        </div>
         <button id="submit-btn">Guess</button>
       </div>
 
       <div class="skip-row">
-        <button id="skip-btn">Skip song</button>
+        <button id="skip-clue-btn">Skip to Next Clue</button>
+        <button id="skip-btn">Give Up (Reveal Song)</button>
       </div>
 
       <div id="feedback" class="feedback"></div>
@@ -441,7 +200,6 @@
       <div id="result-title" class="result-title"></div>
       <div id="result-song"></div>
       <div id="result-grid"></div>
-
       <div class="result-actions">
         <button id="share-btn" style="display:none;">Share Result</button>
         <button id="next-btn">Next Song</button>
