@@ -1,0 +1,3204 @@
+{
+  "songs": [
+    {
+      "id": "blinding_lights",
+      "title": "Blinding Lights",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/blinding_lights/stage1_drums.mp3",
+        "audio/blinding_lights/stage2_drums_bass.mp3",
+        "audio/blinding_lights/stage3_drums_bass_guitar.mp3",
+        "audio/blinding_lights/stage4_drums_bass_guitar_piano.mp3",
+        "audio/blinding_lights/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/blinding_lights/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/blinding_lights/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "shape_of_you",
+      "title": "Shape of You",
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "stages": [
+        "audio/shape_of_you/stage1_drums.mp3",
+        "audio/shape_of_you/stage2_drums_bass.mp3",
+        "audio/shape_of_you/stage3_drums_bass_guitar.mp3",
+        "audio/shape_of_you/stage4_drums_bass_guitar_piano.mp3",
+        "audio/shape_of_you/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/shape_of_you/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/shape_of_you/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sweater_weather",
+      "title": "Sweater Weather",
+      "artists": [
+        "The Neighbourhood"
+      ],
+      "stages": [
+        "audio/sweater_weather/stage1_drums.mp3",
+        "audio/sweater_weather/stage2_drums_bass.mp3",
+        "audio/sweater_weather/stage3_drums_bass_guitar.mp3",
+        "audio/sweater_weather/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sweater_weather/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sweater_weather/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sweater_weather/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "starboy",
+      "title": "Starboy",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/starboy/stage1_drums.mp3",
+        "audio/starboy/stage2_drums_bass.mp3",
+        "audio/starboy/stage3_drums_bass_guitar.mp3",
+        "audio/starboy/stage4_drums_bass_guitar_piano.mp3",
+        "audio/starboy/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/starboy/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/starboy/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "as_it_was",
+      "title": "As It Was",
+      "artists": [
+        "Harry Styles"
+      ],
+      "stages": [
+        "audio/as_it_was/stage1_drums.mp3",
+        "audio/as_it_was/stage2_drums_bass.mp3",
+        "audio/as_it_was/stage3_drums_bass_guitar.mp3",
+        "audio/as_it_was/stage4_drums_bass_guitar_piano.mp3",
+        "audio/as_it_was/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/as_it_was/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/as_it_was/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "someone_you_loved",
+      "title": "Someone You Loved",
+      "artists": [
+        "Lewis Capaldi"
+      ],
+      "stages": [
+        "audio/someone_you_loved/stage1_drums.mp3",
+        "audio/someone_you_loved/stage2_drums_bass.mp3",
+        "audio/someone_you_loved/stage3_drums_bass_guitar.mp3",
+        "audio/someone_you_loved/stage4_drums_bass_guitar_piano.mp3",
+        "audio/someone_you_loved/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/someone_you_loved/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/someone_you_loved/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "one_dance",
+      "title": "One Dance",
+      "artists": [
+        "Drake"
+      ],
+      "stages": [
+        "audio/one_dance/stage1_drums.mp3",
+        "audio/one_dance/stage2_drums_bass.mp3",
+        "audio/one_dance/stage3_drums_bass_guitar.mp3",
+        "audio/one_dance/stage4_drums_bass_guitar_piano.mp3",
+        "audio/one_dance/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/one_dance/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/one_dance/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sunflower",
+      "title": "Sunflower",
+      "artists": [
+        "Post Malone"
+      ],
+      "stages": [
+        "audio/sunflower/stage1_drums.mp3",
+        "audio/sunflower/stage2_drums_bass.mp3",
+        "audio/sunflower/stage3_drums_bass_guitar.mp3",
+        "audio/sunflower/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sunflower/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sunflower/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sunflower/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "perfect",
+      "title": "Perfect",
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "stages": [
+        "audio/perfect/stage1_drums.mp3",
+        "audio/perfect/stage2_drums_bass.mp3",
+        "audio/perfect/stage3_drums_bass_guitar.mp3",
+        "audio/perfect/stage4_drums_bass_guitar_piano.mp3",
+        "audio/perfect/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/perfect/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/perfect/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "stay",
+      "title": "STAY",
+      "artists": [
+        "The Kid LAROI"
+      ],
+      "stages": [
+        "audio/stay/stage1_drums.mp3",
+        "audio/stay/stage2_drums_bass.mp3",
+        "audio/stay/stage3_drums_bass_guitar.mp3",
+        "audio/stay/stage4_drums_bass_guitar_piano.mp3",
+        "audio/stay/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/stay/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/stay/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "believer",
+      "title": "Believer",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "stages": [
+        "audio/believer/stage1_drums.mp3",
+        "audio/believer/stage2_drums_bass.mp3",
+        "audio/believer/stage3_drums_bass_guitar.mp3",
+        "audio/believer/stage4_drums_bass_guitar_piano.mp3",
+        "audio/believer/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/believer/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/believer/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_wanna_be_yours",
+      "title": "I Wanna Be Yours",
+      "artists": [
+        "Arctic Monkeys"
+      ],
+      "stages": [
+        "audio/i_wanna_be_yours/stage1_drums.mp3",
+        "audio/i_wanna_be_yours/stage2_drums_bass.mp3",
+        "audio/i_wanna_be_yours/stage3_drums_bass_guitar.mp3",
+        "audio/i_wanna_be_yours/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_wanna_be_yours/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_wanna_be_yours/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_wanna_be_yours/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "yellow",
+      "title": "Yellow",
+      "artists": [
+        "Coldplay"
+      ],
+      "stages": [
+        "audio/yellow/stage1_drums.mp3",
+        "audio/yellow/stage2_drums_bass.mp3",
+        "audio/yellow/stage3_drums_bass_guitar.mp3",
+        "audio/yellow/stage4_drums_bass_guitar_piano.mp3",
+        "audio/yellow/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/yellow/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/yellow/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "heat_waves",
+      "title": "Heat Waves",
+      "artists": [
+        "Glass Animals"
+      ],
+      "stages": [
+        "audio/heat_waves/stage1_drums.mp3",
+        "audio/heat_waves/stage2_drums_bass.mp3",
+        "audio/heat_waves/stage3_drums_bass_guitar.mp3",
+        "audio/heat_waves/stage4_drums_bass_guitar_piano.mp3",
+        "audio/heat_waves/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/heat_waves/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/heat_waves/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "birds_of_a_feather",
+      "title": "BIRDS OF A FEATHER",
+      "artists": [
+        "Billie Eilish"
+      ],
+      "stages": [
+        "audio/birds_of_a_feather/stage1_drums.mp3",
+        "audio/birds_of_a_feather/stage2_drums_bass.mp3",
+        "audio/birds_of_a_feather/stage3_drums_bass_guitar.mp3",
+        "audio/birds_of_a_feather/stage4_drums_bass_guitar_piano.mp3",
+        "audio/birds_of_a_feather/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/birds_of_a_feather/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/birds_of_a_feather/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_night_we_met",
+      "title": "The Night We Met",
+      "artists": [
+        "Lord Huron"
+      ],
+      "stages": [
+        "audio/the_night_we_met/stage1_drums.mp3",
+        "audio/the_night_we_met/stage2_drums_bass.mp3",
+        "audio/the_night_we_met/stage3_drums_bass_guitar.mp3",
+        "audio/the_night_we_met/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_night_we_met/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_night_we_met/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_night_we_met/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "lovely",
+      "title": "lovely",
+      "artists": [
+        "Billie Eilish"
+      ],
+      "stages": [
+        "audio/lovely/stage1_drums.mp3",
+        "audio/lovely/stage2_drums_bass.mp3",
+        "audio/lovely/stage3_drums_bass_guitar.mp3",
+        "audio/lovely/stage4_drums_bass_guitar_piano.mp3",
+        "audio/lovely/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/lovely/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/lovely/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "die_with_a_smile",
+      "title": "Die With A Smile",
+      "artists": [
+        "Lady Gaga"
+      ],
+      "stages": [
+        "audio/die_with_a_smile/stage1_drums.mp3",
+        "audio/die_with_a_smile/stage2_drums_bass.mp3",
+        "audio/die_with_a_smile/stage3_drums_bass_guitar.mp3",
+        "audio/die_with_a_smile/stage4_drums_bass_guitar_piano.mp3",
+        "audio/die_with_a_smile/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/die_with_a_smile/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/die_with_a_smile/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "closer",
+      "title": "Closer",
+      "artists": [
+        "The Chainsmokers"
+      ],
+      "stages": [
+        "audio/closer/stage1_drums.mp3",
+        "audio/closer/stage2_drums_bass.mp3",
+        "audio/closer/stage3_drums_bass_guitar.mp3",
+        "audio/closer/stage4_drums_bass_guitar_piano.mp3",
+        "audio/closer/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/closer/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/closer/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "riptide",
+      "title": "Riptide",
+      "artists": [
+        "Vance Joy"
+      ],
+      "stages": [
+        "audio/riptide/stage1_drums.mp3",
+        "audio/riptide/stage2_drums_bass.mp3",
+        "audio/riptide/stage3_drums_bass_guitar.mp3",
+        "audio/riptide/stage4_drums_bass_guitar_piano.mp3",
+        "audio/riptide/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/riptide/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/riptide/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "something_just_like_this",
+      "title": "Something Just Like This",
+      "artists": [
+        "The Chainsmokers"
+      ],
+      "stages": [
+        "audio/something_just_like_this/stage1_drums.mp3",
+        "audio/something_just_like_this/stage2_drums_bass.mp3",
+        "audio/something_just_like_this/stage3_drums_bass_guitar.mp3",
+        "audio/something_just_like_this/stage4_drums_bass_guitar_piano.mp3",
+        "audio/something_just_like_this/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/something_just_like_this/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/something_just_like_this/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "say_you_won_t_let_go",
+      "title": "Say You Won't Let Go",
+      "artists": [
+        "James Arthur"
+      ],
+      "stages": [
+        "audio/say_you_won_t_let_go/stage1_drums.mp3",
+        "audio/say_you_won_t_let_go/stage2_drums_bass.mp3",
+        "audio/say_you_won_t_let_go/stage3_drums_bass_guitar.mp3",
+        "audio/say_you_won_t_let_go/stage4_drums_bass_guitar_piano.mp3",
+        "audio/say_you_won_t_let_go/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/say_you_won_t_let_go/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/say_you_won_t_let_go/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "another_love",
+      "title": "Another Love",
+      "artists": [
+        "Tom Odell"
+      ],
+      "stages": [
+        "audio/another_love/stage1_drums.mp3",
+        "audio/another_love/stage2_drums_bass.mp3",
+        "audio/another_love/stage3_drums_bass_guitar.mp3",
+        "audio/another_love/stage4_drums_bass_guitar_piano.mp3",
+        "audio/another_love/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/another_love/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/another_love/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "every_breath_you_take",
+      "title": "Every Breath You Take",
+      "artists": [
+        "The Police"
+      ],
+      "stages": [
+        "audio/every_breath_you_take/stage1_drums.mp3",
+        "audio/every_breath_you_take/stage2_drums_bass.mp3",
+        "audio/every_breath_you_take/stage3_drums_bass_guitar.mp3",
+        "audio/every_breath_you_take/stage4_drums_bass_guitar_piano.mp3",
+        "audio/every_breath_you_take/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/every_breath_you_take/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/every_breath_you_take/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "counting_stars",
+      "title": "Counting Stars",
+      "artists": [
+        "OneRepublic"
+      ],
+      "stages": [
+        "audio/counting_stars/stage1_drums.mp3",
+        "audio/counting_stars/stage2_drums_bass.mp3",
+        "audio/counting_stars/stage3_drums_bass_guitar.mp3",
+        "audio/counting_stars/stage4_drums_bass_guitar_piano.mp3",
+        "audio/counting_stars/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/counting_stars/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/counting_stars/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "take_me_to_church",
+      "title": "Take Me to Church",
+      "artists": [
+        "Hozier"
+      ],
+      "stages": [
+        "audio/take_me_to_church/stage1_drums.mp3",
+        "audio/take_me_to_church/stage2_drums_bass.mp3",
+        "audio/take_me_to_church/stage3_drums_bass_guitar.mp3",
+        "audio/take_me_to_church/stage4_drums_bass_guitar_piano.mp3",
+        "audio/take_me_to_church/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/take_me_to_church/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/take_me_to_church/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "iris",
+      "title": "Iris",
+      "artists": [
+        "The Goo Goo Dolls"
+      ],
+      "stages": [
+        "audio/iris/stage1_drums.mp3",
+        "audio/iris/stage2_drums_bass.mp3",
+        "audio/iris/stage3_drums_bass_guitar.mp3",
+        "audio/iris/stage4_drums_bass_guitar_piano.mp3",
+        "audio/iris/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/iris/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/iris/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "photograph",
+      "title": "Photograph",
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "stages": [
+        "audio/photograph/stage1_drums.mp3",
+        "audio/photograph/stage2_drums_bass.mp3",
+        "audio/photograph/stage3_drums_bass_guitar.mp3",
+        "audio/photograph/stage4_drums_bass_guitar_piano.mp3",
+        "audio/photograph/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/photograph/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/photograph/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "dance_monkey",
+      "title": "Dance Monkey",
+      "artists": [
+        "Tones And I"
+      ],
+      "stages": [
+        "audio/dance_monkey/stage1_drums.mp3",
+        "audio/dance_monkey/stage2_drums_bass.mp3",
+        "audio/dance_monkey/stage3_drums_bass_guitar.mp3",
+        "audio/dance_monkey/stage4_drums_bass_guitar_piano.mp3",
+        "audio/dance_monkey/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/dance_monkey/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/dance_monkey/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "rockstar",
+      "title": "rockstar",
+      "artists": [
+        "Post Malone"
+      ],
+      "stages": [
+        "audio/rockstar/stage1_drums.mp3",
+        "audio/rockstar/stage2_drums_bass.mp3",
+        "audio/rockstar/stage3_drums_bass_guitar.mp3",
+        "audio/rockstar/stage4_drums_bass_guitar_piano.mp3",
+        "audio/rockstar/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/rockstar/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/rockstar/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "cruel_summer",
+      "title": "Cruel Summer",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "stages": [
+        "audio/cruel_summer/stage1_drums.mp3",
+        "audio/cruel_summer/stage2_drums_bass.mp3",
+        "audio/cruel_summer/stage3_drums_bass_guitar.mp3",
+        "audio/cruel_summer/stage4_drums_bass_guitar_piano.mp3",
+        "audio/cruel_summer/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/cruel_summer/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/cruel_summer/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "can_t_hold_us",
+      "title": "Can't Hold Us",
+      "artists": [
+        "Macklemore"
+      ],
+      "stages": [
+        "audio/can_t_hold_us/stage1_drums.mp3",
+        "audio/can_t_hold_us/stage2_drums_bass.mp3",
+        "audio/can_t_hold_us/stage3_drums_bass_guitar.mp3",
+        "audio/can_t_hold_us/stage4_drums_bass_guitar_piano.mp3",
+        "audio/can_t_hold_us/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/can_t_hold_us/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/can_t_hold_us/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "viva_la_vida",
+      "title": "Viva La Vida",
+      "artists": [
+        "Coldplay"
+      ],
+      "stages": [
+        "audio/viva_la_vida/stage1_drums.mp3",
+        "audio/viva_la_vida/stage2_drums_bass.mp3",
+        "audio/viva_la_vida/stage3_drums_bass_guitar.mp3",
+        "audio/viva_la_vida/stage4_drums_bass_guitar_piano.mp3",
+        "audio/viva_la_vida/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/viva_la_vida/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/viva_la_vida/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "se_orita",
+      "title": "Señorita",
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "stages": [
+        "audio/se_orita/stage1_drums.mp3",
+        "audio/se_orita/stage2_drums_bass.mp3",
+        "audio/se_orita/stage3_drums_bass_guitar.mp3",
+        "audio/se_orita/stage4_drums_bass_guitar_piano.mp3",
+        "audio/se_orita/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/se_orita/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/se_orita/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "just_the_way_you_are",
+      "title": "Just the Way You Are",
+      "artists": [
+        "Bruno Mars"
+      ],
+      "stages": [
+        "audio/just_the_way_you_are/stage1_drums.mp3",
+        "audio/just_the_way_you_are/stage2_drums_bass.mp3",
+        "audio/just_the_way_you_are/stage3_drums_bass_guitar.mp3",
+        "audio/just_the_way_you_are/stage4_drums_bass_guitar_piano.mp3",
+        "audio/just_the_way_you_are/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/just_the_way_you_are/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/just_the_way_you_are/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "locked_out_of_heaven",
+      "title": "Locked out of Heaven",
+      "artists": [
+        "Bruno Mars"
+      ],
+      "stages": [
+        "audio/locked_out_of_heaven/stage1_drums.mp3",
+        "audio/locked_out_of_heaven/stage2_drums_bass.mp3",
+        "audio/locked_out_of_heaven/stage3_drums_bass_guitar.mp3",
+        "audio/locked_out_of_heaven/stage4_drums_bass_guitar_piano.mp3",
+        "audio/locked_out_of_heaven/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/locked_out_of_heaven/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/locked_out_of_heaven/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "watermelon_sugar",
+      "title": "Watermelon Sugar",
+      "artists": [
+        "Harry Styles"
+      ],
+      "stages": [
+        "audio/watermelon_sugar/stage1_drums.mp3",
+        "audio/watermelon_sugar/stage2_drums_bass.mp3",
+        "audio/watermelon_sugar/stage3_drums_bass_guitar.mp3",
+        "audio/watermelon_sugar/stage4_drums_bass_guitar_piano.mp3",
+        "audio/watermelon_sugar/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/watermelon_sugar/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/watermelon_sugar/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "die_for_you",
+      "title": "Die For You",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/die_for_you/stage1_drums.mp3",
+        "audio/die_for_you/stage2_drums_bass.mp3",
+        "audio/die_for_you/stage3_drums_bass_guitar.mp3",
+        "audio/die_for_you/stage4_drums_bass_guitar_piano.mp3",
+        "audio/die_for_you/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/die_for_you/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/die_for_you/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "mr_brightside",
+      "title": "Mr. Brightside",
+      "artists": [
+        "The Killers"
+      ],
+      "stages": [
+        "audio/mr_brightside/stage1_drums.mp3",
+        "audio/mr_brightside/stage2_drums_bass.mp3",
+        "audio/mr_brightside/stage3_drums_bass_guitar.mp3",
+        "audio/mr_brightside/stage4_drums_bass_guitar_piano.mp3",
+        "audio/mr_brightside/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/mr_brightside/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/mr_brightside/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "that_s_what_i_like",
+      "title": "That's What I Like",
+      "artists": [
+        "Bruno Mars"
+      ],
+      "stages": [
+        "audio/that_s_what_i_like/stage1_drums.mp3",
+        "audio/that_s_what_i_like/stage2_drums_bass.mp3",
+        "audio/that_s_what_i_like/stage3_drums_bass_guitar.mp3",
+        "audio/that_s_what_i_like/stage4_drums_bass_guitar_piano.mp3",
+        "audio/that_s_what_i_like/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/that_s_what_i_like/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/that_s_what_i_like/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "love_yourself",
+      "title": "Love Yourself",
+      "artists": [
+        "Justin Bieber"
+      ],
+      "stages": [
+        "audio/love_yourself/stage1_drums.mp3",
+        "audio/love_yourself/stage2_drums_bass.mp3",
+        "audio/love_yourself/stage3_drums_bass_guitar.mp3",
+        "audio/love_yourself/stage4_drums_bass_guitar_piano.mp3",
+        "audio/love_yourself/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/love_yourself/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/love_yourself/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "don_t_start_now",
+      "title": "Don't Start Now",
+      "artists": [
+        "Dua Lipa"
+      ],
+      "stages": [
+        "audio/don_t_start_now/stage1_drums.mp3",
+        "audio/don_t_start_now/stage2_drums_bass.mp3",
+        "audio/don_t_start_now/stage3_drums_bass_guitar.mp3",
+        "audio/don_t_start_now/stage4_drums_bass_guitar_piano.mp3",
+        "audio/don_t_start_now/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/don_t_start_now/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/don_t_start_now/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "in_the_end",
+      "title": "In the End",
+      "artists": [
+        "Linkin Park"
+      ],
+      "stages": [
+        "audio/in_the_end/stage1_drums.mp3",
+        "audio/in_the_end/stage2_drums_bass.mp3",
+        "audio/in_the_end/stage3_drums_bass_guitar.mp3",
+        "audio/in_the_end/stage4_drums_bass_guitar_piano.mp3",
+        "audio/in_the_end/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/in_the_end/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/in_the_end/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "when_i_was_your_man",
+      "title": "When I Was Your Man",
+      "artists": [
+        "Bruno Mars"
+      ],
+      "stages": [
+        "audio/when_i_was_your_man/stage1_drums.mp3",
+        "audio/when_i_was_your_man/stage2_drums_bass.mp3",
+        "audio/when_i_was_your_man/stage3_drums_bass_guitar.mp3",
+        "audio/when_i_was_your_man/stage4_drums_bass_guitar_piano.mp3",
+        "audio/when_i_was_your_man/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/when_i_was_your_man/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/when_i_was_your_man/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "bohemian_rhapsody",
+      "title": "Bohemian Rhapsody",
+      "artists": [
+        "Queen"
+      ],
+      "stages": [
+        "audio/bohemian_rhapsody/stage1_drums.mp3",
+        "audio/bohemian_rhapsody/stage2_drums_bass.mp3",
+        "audio/bohemian_rhapsody/stage3_drums_bass_guitar.mp3",
+        "audio/bohemian_rhapsody/stage4_drums_bass_guitar_piano.mp3",
+        "audio/bohemian_rhapsody/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/bohemian_rhapsody/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/bohemian_rhapsody/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "circles",
+      "title": "Circles",
+      "artists": [
+        "Post Malone"
+      ],
+      "stages": [
+        "audio/circles/stage1_drums.mp3",
+        "audio/circles/stage2_drums_bass.mp3",
+        "audio/circles/stage3_drums_bass_guitar.mp3",
+        "audio/circles/stage4_drums_bass_guitar_piano.mp3",
+        "audio/circles/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/circles/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/circles/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "goosebumps",
+      "title": "goosebumps",
+      "artists": [
+        "Travis Scott"
+      ],
+      "stages": [
+        "audio/goosebumps/stage1_drums.mp3",
+        "audio/goosebumps/stage2_drums_bass.mp3",
+        "audio/goosebumps/stage3_drums_bass_guitar.mp3",
+        "audio/goosebumps/stage4_drums_bass_guitar_piano.mp3",
+        "audio/goosebumps/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/goosebumps/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/goosebumps/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "lucid_dreams",
+      "title": "Lucid Dreams",
+      "artists": [
+        "Juice WRLD"
+      ],
+      "stages": [
+        "audio/lucid_dreams/stage1_drums.mp3",
+        "audio/lucid_dreams/stage2_drums_bass.mp3",
+        "audio/lucid_dreams/stage3_drums_bass_guitar.mp3",
+        "audio/lucid_dreams/stage4_drums_bass_guitar_piano.mp3",
+        "audio/lucid_dreams/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/lucid_dreams/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/lucid_dreams/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "thinking_out_loud",
+      "title": "Thinking out Loud",
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "stages": [
+        "audio/thinking_out_loud/stage1_drums.mp3",
+        "audio/thinking_out_loud/stage2_drums_bass.mp3",
+        "audio/thinking_out_loud/stage3_drums_bass_guitar.mp3",
+        "audio/thinking_out_loud/stage4_drums_bass_guitar_piano.mp3",
+        "audio/thinking_out_loud/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/thinking_out_loud/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/thinking_out_loud/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "wake_me_up",
+      "title": "Wake Me Up",
+      "artists": [
+        "Avicii"
+      ],
+      "stages": [
+        "audio/wake_me_up/stage1_drums.mp3",
+        "audio/wake_me_up/stage2_drums_bass.mp3",
+        "audio/wake_me_up/stage3_drums_bass_guitar.mp3",
+        "audio/wake_me_up/stage4_drums_bass_guitar_piano.mp3",
+        "audio/wake_me_up/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/wake_me_up/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/wake_me_up/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "without_me",
+      "title": "Without Me",
+      "artists": [
+        "Eminem"
+      ],
+      "stages": [
+        "audio/without_me/stage1_drums.mp3",
+        "audio/without_me/stage2_drums_bass.mp3",
+        "audio/without_me/stage3_drums_bass_guitar.mp3",
+        "audio/without_me/stage4_drums_bass_guitar_piano.mp3",
+        "audio/without_me/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/without_me/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/without_me/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "shallow",
+      "title": "Shallow",
+      "artists": [
+        "Lady Gaga"
+      ],
+      "stages": [
+        "audio/shallow/stage1_drums.mp3",
+        "audio/shallow/stage2_drums_bass.mp3",
+        "audio/shallow/stage3_drums_bass_guitar.mp3",
+        "audio/shallow/stage4_drums_bass_guitar_piano.mp3",
+        "audio/shallow/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/shallow/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/shallow/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "all_of_me",
+      "title": "All Of Me",
+      "artists": [
+        "John Legend"
+      ],
+      "stages": [
+        "audio/all_of_me/stage1_drums.mp3",
+        "audio/all_of_me/stage2_drums_bass.mp3",
+        "audio/all_of_me/stage3_drums_bass_guitar.mp3",
+        "audio/all_of_me/stage4_drums_bass_guitar_piano.mp3",
+        "audio/all_of_me/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/all_of_me/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/all_of_me/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "let_me_love_you",
+      "title": "Let Me Love You",
+      "artists": [
+        "DJ Snake"
+      ],
+      "stages": [
+        "audio/let_me_love_you/stage1_drums.mp3",
+        "audio/let_me_love_you/stage2_drums_bass.mp3",
+        "audio/let_me_love_you/stage3_drums_bass_guitar.mp3",
+        "audio/let_me_love_you/stage4_drums_bass_guitar_piano.mp3",
+        "audio/let_me_love_you/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/let_me_love_you/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/let_me_love_you/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "god_s_plan",
+      "title": "God's Plan",
+      "artists": [
+        "Drake"
+      ],
+      "stages": [
+        "audio/god_s_plan/stage1_drums.mp3",
+        "audio/god_s_plan/stage2_drums_bass.mp3",
+        "audio/god_s_plan/stage3_drums_bass_guitar.mp3",
+        "audio/god_s_plan/stage4_drums_bass_guitar_piano.mp3",
+        "audio/god_s_plan/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/god_s_plan/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/god_s_plan/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_hills",
+      "title": "The Hills",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/the_hills/stage1_drums.mp3",
+        "audio/the_hills/stage2_drums_bass.mp3",
+        "audio/the_hills/stage3_drums_bass_guitar.mp3",
+        "audio/the_hills/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_hills/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_hills/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_hills/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "stressed_out",
+      "title": "Stressed Out",
+      "artists": [
+        "Twenty One Pilots"
+      ],
+      "stages": [
+        "audio/stressed_out/stage1_drums.mp3",
+        "audio/stressed_out/stage2_drums_bass.mp3",
+        "audio/stressed_out/stage3_drums_bass_guitar.mp3",
+        "audio/stressed_out/stage4_drums_bass_guitar_piano.mp3",
+        "audio/stressed_out/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/stressed_out/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/stressed_out/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "demons",
+      "title": "Demons",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "stages": [
+        "audio/demons/stage1_drums.mp3",
+        "audio/demons/stage2_drums_bass.mp3",
+        "audio/demons/stage3_drums_bass_guitar.mp3",
+        "audio/demons/stage4_drums_bass_guitar_piano.mp3",
+        "audio/demons/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/demons/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/demons/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "espresso",
+      "title": "Espresso",
+      "artists": [
+        "Sabrina Carpenter"
+      ],
+      "stages": [
+        "audio/espresso/stage1_drums.mp3",
+        "audio/espresso/stage2_drums_bass.mp3",
+        "audio/espresso/stage3_drums_bass_guitar.mp3",
+        "audio/espresso/stage4_drums_bass_guitar_piano.mp3",
+        "audio/espresso/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/espresso/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/espresso/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "all_the_stars",
+      "title": "All The Stars",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "stages": [
+        "audio/all_the_stars/stage1_drums.mp3",
+        "audio/all_the_stars/stage2_drums_bass.mp3",
+        "audio/all_the_stars/stage3_drums_bass_guitar.mp3",
+        "audio/all_the_stars/stage4_drums_bass_guitar_piano.mp3",
+        "audio/all_the_stars/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/all_the_stars/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/all_the_stars/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "thunder",
+      "title": "Thunder",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "stages": [
+        "audio/thunder/stage1_drums.mp3",
+        "audio/thunder/stage2_drums_bass.mp3",
+        "audio/thunder/stage3_drums_bass_guitar.mp3",
+        "audio/thunder/stage4_drums_bass_guitar_piano.mp3",
+        "audio/thunder/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/thunder/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/thunder/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "do_i_wanna_know",
+      "title": "Do I Wanna Know?",
+      "artists": [
+        "Arctic Monkeys"
+      ],
+      "stages": [
+        "audio/do_i_wanna_know/stage1_drums.mp3",
+        "audio/do_i_wanna_know/stage2_drums_bass.mp3",
+        "audio/do_i_wanna_know/stage3_drums_bass_guitar.mp3",
+        "audio/do_i_wanna_know/stage4_drums_bass_guitar_piano.mp3",
+        "audio/do_i_wanna_know/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/do_i_wanna_know/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/do_i_wanna_know/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "beautiful_things",
+      "title": "Beautiful Things",
+      "artists": [
+        "Benson Boone"
+      ],
+      "stages": [
+        "audio/beautiful_things/stage1_drums.mp3",
+        "audio/beautiful_things/stage2_drums_bass.mp3",
+        "audio/beautiful_things/stage3_drums_bass_guitar.mp3",
+        "audio/beautiful_things/stage4_drums_bass_guitar_piano.mp3",
+        "audio/beautiful_things/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/beautiful_things/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/beautiful_things/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "seven",
+      "title": "Seven",
+      "artists": [
+        "Jung Kook"
+      ],
+      "stages": [
+        "audio/seven/stage1_drums.mp3",
+        "audio/seven/stage2_drums_bass.mp3",
+        "audio/seven/stage3_drums_bass_guitar.mp3",
+        "audio/seven/stage4_drums_bass_guitar_piano.mp3",
+        "audio/seven/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/seven/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/seven/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "see_you_again",
+      "title": "See You Again",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "stages": [
+        "audio/see_you_again/stage1_drums.mp3",
+        "audio/see_you_again/stage2_drums_bass.mp3",
+        "audio/see_you_again/stage3_drums_bass_guitar.mp3",
+        "audio/see_you_again/stage4_drums_bass_guitar_piano.mp3",
+        "audio/see_you_again/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/see_you_again/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/see_you_again/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sorry",
+      "title": "Sorry",
+      "artists": [
+        "Justin Bieber"
+      ],
+      "stages": [
+        "audio/sorry/stage1_drums.mp3",
+        "audio/sorry/stage2_drums_bass.mp3",
+        "audio/sorry/stage3_drums_bass_guitar.mp3",
+        "audio/sorry/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sorry/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sorry/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sorry/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "billie_jean",
+      "title": "Billie Jean",
+      "artists": [
+        "Michael Jackson"
+      ],
+      "stages": [
+        "audio/billie_jean/stage1_drums.mp3",
+        "audio/billie_jean/stage2_drums_bass.mp3",
+        "audio/billie_jean/stage3_drums_bass_guitar.mp3",
+        "audio/billie_jean/stage4_drums_bass_guitar_piano.mp3",
+        "audio/billie_jean/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/billie_jean/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/billie_jean/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "creep",
+      "title": "Creep",
+      "artists": [
+        "Radiohead"
+      ],
+      "stages": [
+        "audio/creep/stage1_drums.mp3",
+        "audio/creep/stage2_drums_bass.mp3",
+        "audio/creep/stage3_drums_bass_guitar.mp3",
+        "audio/creep/stage4_drums_bass_guitar_piano.mp3",
+        "audio/creep/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/creep/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/creep/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "unforgettable",
+      "title": "Unforgettable",
+      "artists": [
+        "French Montana"
+      ],
+      "stages": [
+        "audio/unforgettable/stage1_drums.mp3",
+        "audio/unforgettable/stage2_drums_bass.mp3",
+        "audio/unforgettable/stage3_drums_bass_guitar.mp3",
+        "audio/unforgettable/stage4_drums_bass_guitar_piano.mp3",
+        "audio/unforgettable/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/unforgettable/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/unforgettable/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "no_role_modelz",
+      "title": "No Role Modelz",
+      "artists": [
+        "J. Cole"
+      ],
+      "stages": [
+        "audio/no_role_modelz/stage1_drums.mp3",
+        "audio/no_role_modelz/stage2_drums_bass.mp3",
+        "audio/no_role_modelz/stage3_drums_bass_guitar.mp3",
+        "audio/no_role_modelz/stage4_drums_bass_guitar_piano.mp3",
+        "audio/no_role_modelz/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/no_role_modelz/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/no_role_modelz/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "smells_like_teen_spirit",
+      "title": "Smells Like Teen Spirit",
+      "artists": [
+        "Nirvana"
+      ],
+      "stages": [
+        "audio/smells_like_teen_spirit/stage1_drums.mp3",
+        "audio/smells_like_teen_spirit/stage2_drums_bass.mp3",
+        "audio/smells_like_teen_spirit/stage3_drums_bass_guitar.mp3",
+        "audio/smells_like_teen_spirit/stage4_drums_bass_guitar_piano.mp3",
+        "audio/smells_like_teen_spirit/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/smells_like_teen_spirit/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/smells_like_teen_spirit/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "lose_yourself",
+      "title": "Lose Yourself",
+      "artists": [
+        "Eminem"
+      ],
+      "stages": [
+        "audio/lose_yourself/stage1_drums.mp3",
+        "audio/lose_yourself/stage2_drums_bass.mp3",
+        "audio/lose_yourself/stage3_drums_bass_guitar.mp3",
+        "audio/lose_yourself/stage4_drums_bass_guitar_piano.mp3",
+        "audio/lose_yourself/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/lose_yourself/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/lose_yourself/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "humble",
+      "title": "HUMBLE.",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "stages": [
+        "audio/humble/stage1_drums.mp3",
+        "audio/humble/stage2_drums_bass.mp3",
+        "audio/humble/stage3_drums_bass_guitar.mp3",
+        "audio/humble/stage4_drums_bass_guitar_piano.mp3",
+        "audio/humble/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/humble/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/humble/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "bad_guy",
+      "title": "bad guy",
+      "artists": [
+        "Billie Eilish"
+      ],
+      "stages": [
+        "audio/bad_guy/stage1_drums.mp3",
+        "audio/bad_guy/stage2_drums_bass.mp3",
+        "audio/bad_guy/stage3_drums_bass_guitar.mp3",
+        "audio/bad_guy/stage4_drums_bass_guitar_piano.mp3",
+        "audio/bad_guy/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/bad_guy/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/bad_guy/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "clean_baby_sleep_white_noise_loopable",
+      "title": "Clean Baby Sleep White Noise (Loopable)",
+      "artists": [
+        "Dream Supplier"
+      ],
+      "stages": [
+        "audio/clean_baby_sleep_white_noise_loopable/stage1_drums.mp3",
+        "audio/clean_baby_sleep_white_noise_loopable/stage2_drums_bass.mp3",
+        "audio/clean_baby_sleep_white_noise_loopable/stage3_drums_bass_guitar.mp3",
+        "audio/clean_baby_sleep_white_noise_loopable/stage4_drums_bass_guitar_piano.mp3",
+        "audio/clean_baby_sleep_white_noise_loopable/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/clean_baby_sleep_white_noise_loopable/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/clean_baby_sleep_white_noise_loopable/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "treat_you_better",
+      "title": "Treat You Better",
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "stages": [
+        "audio/treat_you_better/stage1_drums.mp3",
+        "audio/treat_you_better/stage2_drums_bass.mp3",
+        "audio/treat_you_better/stage3_drums_bass_guitar.mp3",
+        "audio/treat_you_better/stage4_drums_bass_guitar_piano.mp3",
+        "audio/treat_you_better/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/treat_you_better/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/treat_you_better/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "flowers",
+      "title": "Flowers",
+      "artists": [
+        "Miley Cyrus"
+      ],
+      "stages": [
+        "audio/flowers/stage1_drums.mp3",
+        "audio/flowers/stage2_drums_bass.mp3",
+        "audio/flowers/stage3_drums_bass_guitar.mp3",
+        "audio/flowers/stage4_drums_bass_guitar_piano.mp3",
+        "audio/flowers/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/flowers/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/flowers/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_scientist",
+      "title": "The Scientist",
+      "artists": [
+        "Coldplay"
+      ],
+      "stages": [
+        "audio/the_scientist/stage1_drums.mp3",
+        "audio/the_scientist/stage2_drums_bass.mp3",
+        "audio/the_scientist/stage3_drums_bass_guitar.mp3",
+        "audio/the_scientist/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_scientist/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_scientist/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_scientist/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "505",
+      "title": "505",
+      "artists": [
+        "Arctic Monkeys"
+      ],
+      "stages": [
+        "audio/505/stage1_drums.mp3",
+        "audio/505/stage2_drums_bass.mp3",
+        "audio/505/stage3_drums_bass_guitar.mp3",
+        "audio/505/stage4_drums_bass_guitar_piano.mp3",
+        "audio/505/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/505/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/505/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "drivers_license",
+      "title": "drivers license",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "stages": [
+        "audio/drivers_license/stage1_drums.mp3",
+        "audio/drivers_license/stage2_drums_bass.mp3",
+        "audio/drivers_license/stage3_drums_bass_guitar.mp3",
+        "audio/drivers_license/stage4_drums_bass_guitar_piano.mp3",
+        "audio/drivers_license/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/drivers_license/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/drivers_license/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "there_s_nothing_holdin_me_back",
+      "title": "There's Nothing Holdin' Me Back",
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "stages": [
+        "audio/there_s_nothing_holdin_me_back/stage1_drums.mp3",
+        "audio/there_s_nothing_holdin_me_back/stage2_drums_bass.mp3",
+        "audio/there_s_nothing_holdin_me_back/stage3_drums_bass_guitar.mp3",
+        "audio/there_s_nothing_holdin_me_back/stage4_drums_bass_guitar_piano.mp3",
+        "audio/there_s_nothing_holdin_me_back/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/there_s_nothing_holdin_me_back/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/there_s_nothing_holdin_me_back/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "don_t_stop_believin",
+      "title": "Don't Stop Believin'",
+      "artists": [
+        "Journey"
+      ],
+      "stages": [
+        "audio/don_t_stop_believin/stage1_drums.mp3",
+        "audio/don_t_stop_believin/stage2_drums_bass.mp3",
+        "audio/don_t_stop_believin/stage3_drums_bass_guitar.mp3",
+        "audio/don_t_stop_believin/stage4_drums_bass_guitar_piano.mp3",
+        "audio/don_t_stop_believin/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/don_t_stop_believin/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/don_t_stop_believin/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "7_rings",
+      "title": "7 rings",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "stages": [
+        "audio/7_rings/stage1_drums.mp3",
+        "audio/7_rings/stage2_drums_bass.mp3",
+        "audio/7_rings/stage3_drums_bass_guitar.mp3",
+        "audio/7_rings/stage4_drums_bass_guitar_piano.mp3",
+        "audio/7_rings/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/7_rings/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/7_rings/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "wonderwall",
+      "title": "Wonderwall",
+      "artists": [
+        "Oasis"
+      ],
+      "stages": [
+        "audio/wonderwall/stage1_drums.mp3",
+        "audio/wonderwall/stage2_drums_bass.mp3",
+        "audio/wonderwall/stage3_drums_bass_guitar.mp3",
+        "audio/wonderwall/stage4_drums_bass_guitar_piano.mp3",
+        "audio/wonderwall/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/wonderwall/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/wonderwall/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "let_her_go",
+      "title": "Let Her Go",
+      "artists": [
+        "Passenger"
+      ],
+      "stages": [
+        "audio/let_her_go/stage1_drums.mp3",
+        "audio/let_her_go/stage2_drums_bass.mp3",
+        "audio/let_her_go/stage3_drums_bass_guitar.mp3",
+        "audio/let_her_go/stage4_drums_bass_guitar_piano.mp3",
+        "audio/let_her_go/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/let_her_go/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/let_her_go/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "kill_bill",
+      "title": "Kill Bill",
+      "artists": [
+        "SZA"
+      ],
+      "stages": [
+        "audio/kill_bill/stage1_drums.mp3",
+        "audio/kill_bill/stage2_drums_bass.mp3",
+        "audio/kill_bill/stage3_drums_bass_guitar.mp3",
+        "audio/kill_bill/stage4_drums_bass_guitar_piano.mp3",
+        "audio/kill_bill/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/kill_bill/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/kill_bill/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "take_on_me",
+      "title": "Take On Me",
+      "artists": [
+        "a-ha"
+      ],
+      "stages": [
+        "audio/take_on_me/stage1_drums.mp3",
+        "audio/take_on_me/stage2_drums_bass.mp3",
+        "audio/take_on_me/stage3_drums_bass_guitar.mp3",
+        "audio/take_on_me/stage4_drums_bass_guitar_piano.mp3",
+        "audio/take_on_me/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/take_on_me/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/take_on_me/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "dreams",
+      "title": "Dreams",
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "stages": [
+        "audio/dreams/stage1_drums.mp3",
+        "audio/dreams/stage2_drums_bass.mp3",
+        "audio/dreams/stage3_drums_bass_guitar.mp3",
+        "audio/dreams/stage4_drums_bass_guitar_piano.mp3",
+        "audio/dreams/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/dreams/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/dreams/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "numb",
+      "title": "Numb",
+      "artists": [
+        "Linkin Park"
+      ],
+      "stages": [
+        "audio/numb/stage1_drums.mp3",
+        "audio/numb/stage2_drums_bass.mp3",
+        "audio/numb/stage3_drums_bass_guitar.mp3",
+        "audio/numb/stage4_drums_bass_guitar_piano.mp3",
+        "audio/numb/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/numb/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/numb/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sweet_child_o_mine",
+      "title": "Sweet Child O' Mine",
+      "artists": [
+        "Guns N' Roses"
+      ],
+      "stages": [
+        "audio/sweet_child_o_mine/stage1_drums.mp3",
+        "audio/sweet_child_o_mine/stage2_drums_bass.mp3",
+        "audio/sweet_child_o_mine/stage3_drums_bass_guitar.mp3",
+        "audio/sweet_child_o_mine/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sweet_child_o_mine/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sweet_child_o_mine/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sweet_child_o_mine/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "save_your_tears",
+      "title": "Save Your Tears",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/save_your_tears/stage1_drums.mp3",
+        "audio/save_your_tears/stage2_drums_bass.mp3",
+        "audio/save_your_tears/stage3_drums_bass_guitar.mp3",
+        "audio/save_your_tears/stage4_drums_bass_guitar_piano.mp3",
+        "audio/save_your_tears/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/save_your_tears/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/save_your_tears/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "cold_heart",
+      "title": "Cold Heart",
+      "artists": [
+        "Elton John"
+      ],
+      "stages": [
+        "audio/cold_heart/stage1_drums.mp3",
+        "audio/cold_heart/stage2_drums_bass.mp3",
+        "audio/cold_heart/stage3_drums_bass_guitar.mp3",
+        "audio/cold_heart/stage4_drums_bass_guitar_piano.mp3",
+        "audio/cold_heart/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/cold_heart/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/cold_heart/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "end_of_beginning",
+      "title": "End of Beginning",
+      "artists": [
+        "Djo"
+      ],
+      "stages": [
+        "audio/end_of_beginning/stage1_drums.mp3",
+        "audio/end_of_beginning/stage2_drums_bass.mp3",
+        "audio/end_of_beginning/stage3_drums_bass_guitar.mp3",
+        "audio/end_of_beginning/stage4_drums_bass_guitar_piano.mp3",
+        "audio/end_of_beginning/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/end_of_beginning/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/end_of_beginning/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "payphone",
+      "title": "Payphone",
+      "artists": [
+        "Maroon 5"
+      ],
+      "stages": [
+        "audio/payphone/stage1_drums.mp3",
+        "audio/payphone/stage2_drums_bass.mp3",
+        "audio/payphone/stage3_drums_bass_guitar.mp3",
+        "audio/payphone/stage4_drums_bass_guitar_piano.mp3",
+        "audio/payphone/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/payphone/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/payphone/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "one_kiss",
+      "title": "One Kiss",
+      "artists": [
+        "Calvin Harris"
+      ],
+      "stages": [
+        "audio/one_kiss/stage1_drums.mp3",
+        "audio/one_kiss/stage2_drums_bass.mp3",
+        "audio/one_kiss/stage3_drums_bass_guitar.mp3",
+        "audio/one_kiss/stage4_drums_bass_guitar_piano.mp3",
+        "audio/one_kiss/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/one_kiss/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/one_kiss/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "lean_on",
+      "title": "Lean On",
+      "artists": [
+        "Major Lazer"
+      ],
+      "stages": [
+        "audio/lean_on/stage1_drums.mp3",
+        "audio/lean_on/stage2_drums_bass.mp3",
+        "audio/lean_on/stage3_drums_bass_guitar.mp3",
+        "audio/lean_on/stage4_drums_bass_guitar_piano.mp3",
+        "audio/lean_on/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/lean_on/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/lean_on/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "one_of_the_girls",
+      "title": "One Of The Girls",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/one_of_the_girls/stage1_drums.mp3",
+        "audio/one_of_the_girls/stage2_drums_bass.mp3",
+        "audio/one_of_the_girls/stage3_drums_bass_guitar.mp3",
+        "audio/one_of_the_girls/stage4_drums_bass_guitar_piano.mp3",
+        "audio/one_of_the_girls/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/one_of_the_girls/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/one_of_the_girls/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "uptown_funk",
+      "title": "Uptown Funk",
+      "artists": [
+        "Mark Ronson"
+      ],
+      "stages": [
+        "audio/uptown_funk/stage1_drums.mp3",
+        "audio/uptown_funk/stage2_drums_bass.mp3",
+        "audio/uptown_funk/stage3_drums_bass_guitar.mp3",
+        "audio/uptown_funk/stage4_drums_bass_guitar_piano.mp3",
+        "audio/uptown_funk/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/uptown_funk/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/uptown_funk/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "don_t_stop_me_now",
+      "title": "Don't Stop Me Now",
+      "artists": [
+        "Queen"
+      ],
+      "stages": [
+        "audio/don_t_stop_me_now/stage1_drums.mp3",
+        "audio/don_t_stop_me_now/stage2_drums_bass.mp3",
+        "audio/don_t_stop_me_now/stage3_drums_bass_guitar.mp3",
+        "audio/don_t_stop_me_now/stage4_drums_bass_guitar_piano.mp3",
+        "audio/don_t_stop_me_now/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/don_t_stop_me_now/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/don_t_stop_me_now/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "good_4_u",
+      "title": "good 4 u",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "stages": [
+        "audio/good_4_u/stage1_drums.mp3",
+        "audio/good_4_u/stage2_drums_bass.mp3",
+        "audio/good_4_u/stage3_drums_bass_guitar.mp3",
+        "audio/good_4_u/stage4_drums_bass_guitar_piano.mp3",
+        "audio/good_4_u/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/good_4_u/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/good_4_u/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "africa",
+      "title": "Africa",
+      "artists": [
+        "TOTO"
+      ],
+      "stages": [
+        "audio/africa/stage1_drums.mp3",
+        "audio/africa/stage2_drums_bass.mp3",
+        "audio/africa/stage3_drums_bass_guitar.mp3",
+        "audio/africa/stage4_drums_bass_guitar_piano.mp3",
+        "audio/africa/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/africa/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/africa/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "we_don_t_talk_anymore",
+      "title": "We Don't Talk Anymore",
+      "artists": [
+        "Charlie Puth"
+      ],
+      "stages": [
+        "audio/we_don_t_talk_anymore/stage1_drums.mp3",
+        "audio/we_don_t_talk_anymore/stage2_drums_bass.mp3",
+        "audio/we_don_t_talk_anymore/stage3_drums_bass_guitar.mp3",
+        "audio/we_don_t_talk_anymore/stage4_drums_bass_guitar_piano.mp3",
+        "audio/we_don_t_talk_anymore/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/we_don_t_talk_anymore/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/we_don_t_talk_anymore/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "someone_like_you",
+      "title": "Someone Like You",
+      "artists": [
+        "Adele"
+      ],
+      "stages": [
+        "audio/someone_like_you/stage1_drums.mp3",
+        "audio/someone_like_you/stage2_drums_bass.mp3",
+        "audio/someone_like_you/stage3_drums_bass_guitar.mp3",
+        "audio/someone_like_you/stage4_drums_bass_guitar_piano.mp3",
+        "audio/someone_like_you/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/someone_like_you/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/someone_like_you/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "happier",
+      "title": "Happier",
+      "artists": [
+        "Marshmello"
+      ],
+      "stages": [
+        "audio/happier/stage1_drums.mp3",
+        "audio/happier/stage2_drums_bass.mp3",
+        "audio/happier/stage3_drums_bass_guitar.mp3",
+        "audio/happier/stage4_drums_bass_guitar_piano.mp3",
+        "audio/happier/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/happier/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/happier/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "danza_kuduro",
+      "title": "Danza Kuduro",
+      "artists": [
+        "Don Omar"
+      ],
+      "stages": [
+        "audio/danza_kuduro/stage1_drums.mp3",
+        "audio/danza_kuduro/stage2_drums_bass.mp3",
+        "audio/danza_kuduro/stage3_drums_bass_guitar.mp3",
+        "audio/danza_kuduro/stage4_drums_bass_guitar_piano.mp3",
+        "audio/danza_kuduro/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/danza_kuduro/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/danza_kuduro/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "night_changes",
+      "title": "Night Changes",
+      "artists": [
+        "One Direction"
+      ],
+      "stages": [
+        "audio/night_changes/stage1_drums.mp3",
+        "audio/night_changes/stage2_drums_bass.mp3",
+        "audio/night_changes/stage3_drums_bass_guitar.mp3",
+        "audio/night_changes/stage4_drums_bass_guitar_piano.mp3",
+        "audio/night_changes/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/night_changes/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/night_changes/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "la_canci_n",
+      "title": "LA CANCIÓN",
+      "artists": [
+        "J Balvin"
+      ],
+      "stages": [
+        "audio/la_canci_n/stage1_drums.mp3",
+        "audio/la_canci_n/stage2_drums_bass.mp3",
+        "audio/la_canci_n/stage3_drums_bass_guitar.mp3",
+        "audio/la_canci_n/stage4_drums_bass_guitar_piano.mp3",
+        "audio/la_canci_n/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/la_canci_n/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/la_canci_n/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "levitating",
+      "title": "Levitating",
+      "artists": [
+        "Dua Lipa"
+      ],
+      "stages": [
+        "audio/levitating/stage1_drums.mp3",
+        "audio/levitating/stage2_drums_bass.mp3",
+        "audio/levitating/stage3_drums_bass_guitar.mp3",
+        "audio/levitating/stage4_drums_bass_guitar_piano.mp3",
+        "audio/levitating/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/levitating/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/levitating/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sicko_mode",
+      "title": "SICKO MODE",
+      "artists": [
+        "Travis Scott"
+      ],
+      "stages": [
+        "audio/sicko_mode/stage1_drums.mp3",
+        "audio/sicko_mode/stage2_drums_bass.mp3",
+        "audio/sicko_mode/stage3_drums_bass_guitar.mp3",
+        "audio/sicko_mode/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sicko_mode/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sicko_mode/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sicko_mode/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "somewhere_only_we_know",
+      "title": "Somewhere Only We Know",
+      "artists": [
+        "Keane"
+      ],
+      "stages": [
+        "audio/somewhere_only_we_know/stage1_drums.mp3",
+        "audio/somewhere_only_we_know/stage2_drums_bass.mp3",
+        "audio/somewhere_only_we_know/stage3_drums_bass_guitar.mp3",
+        "audio/somewhere_only_we_know/stage4_drums_bass_guitar_piano.mp3",
+        "audio/somewhere_only_we_know/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/somewhere_only_we_know/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/somewhere_only_we_know/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "everybody_wants_to_rule_the_world",
+      "title": "Everybody Wants To Rule The World",
+      "artists": [
+        "Tears For Fears"
+      ],
+      "stages": [
+        "audio/everybody_wants_to_rule_the_world/stage1_drums.mp3",
+        "audio/everybody_wants_to_rule_the_world/stage2_drums_bass.mp3",
+        "audio/everybody_wants_to_rule_the_world/stage3_drums_bass_guitar.mp3",
+        "audio/everybody_wants_to_rule_the_world/stage4_drums_bass_guitar_piano.mp3",
+        "audio/everybody_wants_to_rule_the_world/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/everybody_wants_to_rule_the_world/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/everybody_wants_to_rule_the_world/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "new_rules",
+      "title": "New Rules",
+      "artists": [
+        "Dua Lipa"
+      ],
+      "stages": [
+        "audio/new_rules/stage1_drums.mp3",
+        "audio/new_rules/stage2_drums_bass.mp3",
+        "audio/new_rules/stage3_drums_bass_guitar.mp3",
+        "audio/new_rules/stage4_drums_bass_guitar_piano.mp3",
+        "audio/new_rules/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/new_rules/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/new_rules/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "we_found_love",
+      "title": "We Found Love",
+      "artists": [
+        "Calvin Harris"
+      ],
+      "stages": [
+        "audio/we_found_love/stage1_drums.mp3",
+        "audio/we_found_love/stage2_drums_bass.mp3",
+        "audio/we_found_love/stage3_drums_bass_guitar.mp3",
+        "audio/we_found_love/stage4_drums_bass_guitar_piano.mp3",
+        "audio/we_found_love/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/we_found_love/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/we_found_love/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "gangsta_s_paradise",
+      "title": "Gangsta's Paradise",
+      "artists": [
+        "Coolio"
+      ],
+      "stages": [
+        "audio/gangsta_s_paradise/stage1_drums.mp3",
+        "audio/gangsta_s_paradise/stage2_drums_bass.mp3",
+        "audio/gangsta_s_paradise/stage3_drums_bass_guitar.mp3",
+        "audio/gangsta_s_paradise/stage4_drums_bass_guitar_piano.mp3",
+        "audio/gangsta_s_paradise/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/gangsta_s_paradise/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/gangsta_s_paradise/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "hips_don_t_lie",
+      "title": "Hips Don't Lie",
+      "artists": [
+        "Shakira"
+      ],
+      "stages": [
+        "audio/hips_don_t_lie/stage1_drums.mp3",
+        "audio/hips_don_t_lie/stage2_drums_bass.mp3",
+        "audio/hips_don_t_lie/stage3_drums_bass_guitar.mp3",
+        "audio/hips_don_t_lie/stage4_drums_bass_guitar_piano.mp3",
+        "audio/hips_don_t_lie/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/hips_don_t_lie/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/hips_don_t_lie/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "7_years",
+      "title": "7 Years",
+      "artists": [
+        "Lukas Graham"
+      ],
+      "stages": [
+        "audio/7_years/stage1_drums.mp3",
+        "audio/7_years/stage2_drums_bass.mp3",
+        "audio/7_years/stage3_drums_bass_guitar.mp3",
+        "audio/7_years/stage4_drums_bass_guitar_piano.mp3",
+        "audio/7_years/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/7_years/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/7_years/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sad",
+      "title": "SAD!",
+      "artists": [
+        "XXXTENTACION"
+      ],
+      "stages": [
+        "audio/sad/stage1_drums.mp3",
+        "audio/sad/stage2_drums_bass.mp3",
+        "audio/sad/stage3_drums_bass_guitar.mp3",
+        "audio/sad/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sad/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sad/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sad/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "lose_control",
+      "title": "Lose Control",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "stages": [
+        "audio/lose_control/stage1_drums.mp3",
+        "audio/lose_control/stage2_drums_bass.mp3",
+        "audio/lose_control/stage3_drums_bass_guitar.mp3",
+        "audio/lose_control/stage4_drums_bass_guitar_piano.mp3",
+        "audio/lose_control/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/lose_control/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/lose_control/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "xo_tour_llif3",
+      "title": "XO Tour Llif3",
+      "artists": [
+        "Lil Uzi Vert"
+      ],
+      "stages": [
+        "audio/xo_tour_llif3/stage1_drums.mp3",
+        "audio/xo_tour_llif3/stage2_drums_bass.mp3",
+        "audio/xo_tour_llif3/stage3_drums_bass_guitar.mp3",
+        "audio/xo_tour_llif3/stage4_drums_bass_guitar_piano.mp3",
+        "audio/xo_tour_llif3/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/xo_tour_llif3/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/xo_tour_llif3/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "without_me",
+      "title": "Without Me",
+      "artists": [
+        "Halsey"
+      ],
+      "stages": [
+        "audio/without_me/stage1_drums.mp3",
+        "audio/without_me/stage2_drums_bass.mp3",
+        "audio/without_me/stage3_drums_bass_guitar.mp3",
+        "audio/without_me/stage4_drums_bass_guitar_piano.mp3",
+        "audio/without_me/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/without_me/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/without_me/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "too_good_at_goodbyes",
+      "title": "Too Good At Goodbyes",
+      "artists": [
+        "Sam Smith"
+      ],
+      "stages": [
+        "audio/too_good_at_goodbyes/stage1_drums.mp3",
+        "audio/too_good_at_goodbyes/stage2_drums_bass.mp3",
+        "audio/too_good_at_goodbyes/stage3_drums_bass_guitar.mp3",
+        "audio/too_good_at_goodbyes/stage4_drums_bass_guitar_piano.mp3",
+        "audio/too_good_at_goodbyes/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/too_good_at_goodbyes/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/too_good_at_goodbyes/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "stay_with_me",
+      "title": "Stay With Me",
+      "artists": [
+        "Sam Smith"
+      ],
+      "stages": [
+        "audio/stay_with_me/stage1_drums.mp3",
+        "audio/stay_with_me/stage2_drums_bass.mp3",
+        "audio/stay_with_me/stage3_drums_bass_guitar.mp3",
+        "audio/stay_with_me/stage4_drums_bass_guitar_piano.mp3",
+        "audio/stay_with_me/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/stay_with_me/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/stay_with_me/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "stitches",
+      "title": "Stitches",
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "stages": [
+        "audio/stitches/stage1_drums.mp3",
+        "audio/stitches/stage2_drums_bass.mp3",
+        "audio/stitches/stage3_drums_bass_guitar.mp3",
+        "audio/stitches/stage4_drums_bass_guitar_piano.mp3",
+        "audio/stitches/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/stitches/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/stitches/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_m_not_the_only_one",
+      "title": "I'm Not The Only One",
+      "artists": [
+        "Sam Smith"
+      ],
+      "stages": [
+        "audio/i_m_not_the_only_one/stage1_drums.mp3",
+        "audio/i_m_not_the_only_one/stage2_drums_bass.mp3",
+        "audio/i_m_not_the_only_one/stage3_drums_bass_guitar.mp3",
+        "audio/i_m_not_the_only_one/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_m_not_the_only_one/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_m_not_the_only_one/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_m_not_the_only_one/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "attention",
+      "title": "Attention",
+      "artists": [
+        "Charlie Puth"
+      ],
+      "stages": [
+        "audio/attention/stage1_drums.mp3",
+        "audio/attention/stage2_drums_bass.mp3",
+        "audio/attention/stage3_drums_bass_guitar.mp3",
+        "audio/attention/stage4_drums_bass_guitar_piano.mp3",
+        "audio/attention/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/attention/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/attention/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "till_i_collapse",
+      "title": "Till I Collapse",
+      "artists": [
+        "Eminem"
+      ],
+      "stages": [
+        "audio/till_i_collapse/stage1_drums.mp3",
+        "audio/till_i_collapse/stage2_drums_bass.mp3",
+        "audio/till_i_collapse/stage3_drums_bass_guitar.mp3",
+        "audio/till_i_collapse/stage4_drums_bass_guitar_piano.mp3",
+        "audio/till_i_collapse/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/till_i_collapse/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/till_i_collapse/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "mockingbird",
+      "title": "Mockingbird",
+      "artists": [
+        "Eminem"
+      ],
+      "stages": [
+        "audio/mockingbird/stage1_drums.mp3",
+        "audio/mockingbird/stage2_drums_bass.mp3",
+        "audio/mockingbird/stage3_drums_bass_guitar.mp3",
+        "audio/mockingbird/stage4_drums_bass_guitar_piano.mp3",
+        "audio/mockingbird/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/mockingbird/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/mockingbird/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "pumped_up_kicks",
+      "title": "Pumped Up Kicks",
+      "artists": [
+        "Foster The People"
+      ],
+      "stages": [
+        "audio/pumped_up_kicks/stage1_drums.mp3",
+        "audio/pumped_up_kicks/stage2_drums_bass.mp3",
+        "audio/pumped_up_kicks/stage3_drums_bass_guitar.mp3",
+        "audio/pumped_up_kicks/stage4_drums_bass_guitar_piano.mp3",
+        "audio/pumped_up_kicks/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/pumped_up_kicks/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/pumped_up_kicks/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "when_the_party_s_over",
+      "title": "when the party's over",
+      "artists": [
+        "Billie Eilish"
+      ],
+      "stages": [
+        "audio/when_the_party_s_over/stage1_drums.mp3",
+        "audio/when_the_party_s_over/stage2_drums_bass.mp3",
+        "audio/when_the_party_s_over/stage3_drums_bass_guitar.mp3",
+        "audio/when_the_party_s_over/stage4_drums_bass_guitar_piano.mp3",
+        "audio/when_the_party_s_over/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/when_the_party_s_over/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/when_the_party_s_over/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "all_i_want_for_christmas_is_you",
+      "title": "All I Want for Christmas Is You",
+      "artists": [
+        "Mariah Carey"
+      ],
+      "stages": [
+        "audio/all_i_want_for_christmas_is_you/stage1_drums.mp3",
+        "audio/all_i_want_for_christmas_is_you/stage2_drums_bass.mp3",
+        "audio/all_i_want_for_christmas_is_you/stage3_drums_bass_guitar.mp3",
+        "audio/all_i_want_for_christmas_is_you/stage4_drums_bass_guitar_piano.mp3",
+        "audio/all_i_want_for_christmas_is_you/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/all_i_want_for_christmas_is_you/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/all_i_want_for_christmas_is_you/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "apt",
+      "title": "APT.",
+      "artists": [
+        "ROSÉ"
+      ],
+      "stages": [
+        "audio/apt/stage1_drums.mp3",
+        "audio/apt/stage2_drums_bass.mp3",
+        "audio/apt/stage3_drums_bass_guitar.mp3",
+        "audio/apt/stage4_drums_bass_guitar_piano.mp3",
+        "audio/apt/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/apt/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/apt/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "d_kiti",
+      "title": "DÁKITI",
+      "artists": [
+        "Bad Bunny"
+      ],
+      "stages": [
+        "audio/d_kiti/stage1_drums.mp3",
+        "audio/d_kiti/stage2_drums_bass.mp3",
+        "audio/d_kiti/stage3_drums_bass_guitar.mp3",
+        "audio/d_kiti/stage4_drums_bass_guitar_piano.mp3",
+        "audio/d_kiti/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/d_kiti/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/d_kiti/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "somebody_that_i_used_to_know",
+      "title": "Somebody That I Used To Know",
+      "artists": [
+        "Gotye"
+      ],
+      "stages": [
+        "audio/somebody_that_i_used_to_know/stage1_drums.mp3",
+        "audio/somebody_that_i_used_to_know/stage2_drums_bass.mp3",
+        "audio/somebody_that_i_used_to_know/stage3_drums_bass_guitar.mp3",
+        "audio/somebody_that_i_used_to_know/stage4_drums_bass_guitar_piano.mp3",
+        "audio/somebody_that_i_used_to_know/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/somebody_that_i_used_to_know/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/somebody_that_i_used_to_know/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "memories",
+      "title": "Memories",
+      "artists": [
+        "Maroon 5"
+      ],
+      "stages": [
+        "audio/memories/stage1_drums.mp3",
+        "audio/memories/stage2_drums_bass.mp3",
+        "audio/memories/stage3_drums_bass_guitar.mp3",
+        "audio/memories/stage4_drums_bass_guitar_piano.mp3",
+        "audio/memories/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/memories/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/memories/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_less_i_know_the_better",
+      "title": "The Less I Know The Better",
+      "artists": [
+        "Tame Impala"
+      ],
+      "stages": [
+        "audio/the_less_i_know_the_better/stage1_drums.mp3",
+        "audio/the_less_i_know_the_better/stage2_drums_bass.mp3",
+        "audio/the_less_i_know_the_better/stage3_drums_bass_guitar.mp3",
+        "audio/the_less_i_know_the_better/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_less_i_know_the_better/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_less_i_know_the_better/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_less_i_know_the_better/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "jocelyn_flores",
+      "title": "Jocelyn Flores",
+      "artists": [
+        "XXXTENTACION"
+      ],
+      "stages": [
+        "audio/jocelyn_flores/stage1_drums.mp3",
+        "audio/jocelyn_flores/stage2_drums_bass.mp3",
+        "audio/jocelyn_flores/stage3_drums_bass_guitar.mp3",
+        "audio/jocelyn_flores/stage4_drums_bass_guitar_piano.mp3",
+        "audio/jocelyn_flores/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/jocelyn_flores/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/jocelyn_flores/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "havana",
+      "title": "Havana",
+      "artists": [
+        "Camila Cabello"
+      ],
+      "stages": [
+        "audio/havana/stage1_drums.mp3",
+        "audio/havana/stage2_drums_bass.mp3",
+        "audio/havana/stage3_drums_bass_guitar.mp3",
+        "audio/havana/stage4_drums_bass_guitar_piano.mp3",
+        "audio/havana/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/havana/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/havana/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_real_slim_shady",
+      "title": "The Real Slim Shady",
+      "artists": [
+        "Eminem"
+      ],
+      "stages": [
+        "audio/the_real_slim_shady/stage1_drums.mp3",
+        "audio/the_real_slim_shady/stage2_drums_bass.mp3",
+        "audio/the_real_slim_shady/stage3_drums_bass_guitar.mp3",
+        "audio/the_real_slim_shady/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_real_slim_shady/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_real_slim_shady/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_real_slim_shady/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "me_reh_so",
+      "title": "Me Rehúso",
+      "artists": [
+        "Danny Ocean"
+      ],
+      "stages": [
+        "audio/me_reh_so/stage1_drums.mp3",
+        "audio/me_reh_so/stage2_drums_bass.mp3",
+        "audio/me_reh_so/stage3_drums_bass_guitar.mp3",
+        "audio/me_reh_so/stage4_drums_bass_guitar_piano.mp3",
+        "audio/me_reh_so/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/me_reh_so/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/me_reh_so/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "easy_on_me",
+      "title": "Easy On Me",
+      "artists": [
+        "Adele"
+      ],
+      "stages": [
+        "audio/easy_on_me/stage1_drums.mp3",
+        "audio/easy_on_me/stage2_drums_bass.mp3",
+        "audio/easy_on_me/stage3_drums_bass_guitar.mp3",
+        "audio/easy_on_me/stage4_drums_bass_guitar_piano.mp3",
+        "audio/easy_on_me/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/easy_on_me/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/easy_on_me/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "blank_space",
+      "title": "Blank Space",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "stages": [
+        "audio/blank_space/stage1_drums.mp3",
+        "audio/blank_space/stage2_drums_bass.mp3",
+        "audio/blank_space/stage3_drums_bass_guitar.mp3",
+        "audio/blank_space/stage4_drums_bass_guitar_piano.mp3",
+        "audio/blank_space/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/blank_space/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/blank_space/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "before_you_go",
+      "title": "Before You Go",
+      "artists": [
+        "Lewis Capaldi"
+      ],
+      "stages": [
+        "audio/before_you_go/stage1_drums.mp3",
+        "audio/before_you_go/stage2_drums_bass.mp3",
+        "audio/before_you_go/stage3_drums_bass_guitar.mp3",
+        "audio/before_you_go/stage4_drums_bass_guitar_piano.mp3",
+        "audio/before_you_go/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/before_you_go/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/before_you_go/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_m_yours",
+      "title": "I'm Yours",
+      "artists": [
+        "Jason Mraz"
+      ],
+      "stages": [
+        "audio/i_m_yours/stage1_drums.mp3",
+        "audio/i_m_yours/stage2_drums_bass.mp3",
+        "audio/i_m_yours/stage3_drums_bass_guitar.mp3",
+        "audio/i_m_yours/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_m_yours/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_m_yours/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_m_yours/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "apocalypse",
+      "title": "Apocalypse",
+      "artists": [
+        "Cigarettes After Sex"
+      ],
+      "stages": [
+        "audio/apocalypse/stage1_drums.mp3",
+        "audio/apocalypse/stage2_drums_bass.mp3",
+        "audio/apocalypse/stage3_drums_bass_guitar.mp3",
+        "audio/apocalypse/stage4_drums_bass_guitar_piano.mp3",
+        "audio/apocalypse/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/apocalypse/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/apocalypse/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "another_one_bites_the_dust",
+      "title": "Another One Bites The Dust",
+      "artists": [
+        "Queen"
+      ],
+      "stages": [
+        "audio/another_one_bites_the_dust/stage1_drums.mp3",
+        "audio/another_one_bites_the_dust/stage2_drums_bass.mp3",
+        "audio/another_one_bites_the_dust/stage3_drums_bass_guitar.mp3",
+        "audio/another_one_bites_the_dust/stage4_drums_bass_guitar_piano.mp3",
+        "audio/another_one_bites_the_dust/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/another_one_bites_the_dust/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/another_one_bites_the_dust/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "who",
+      "title": "Who",
+      "artists": [
+        "Jimin"
+      ],
+      "stages": [
+        "audio/who/stage1_drums.mp3",
+        "audio/who/stage2_drums_bass.mp3",
+        "audio/who/stage3_drums_bass_guitar.mp3",
+        "audio/who/stage4_drums_bass_guitar_piano.mp3",
+        "audio/who/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/who/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/who/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "have_you_ever_seen_the_rain",
+      "title": "Have You Ever Seen The Rain",
+      "artists": [
+        "Creedence Clearwater Revival"
+      ],
+      "stages": [
+        "audio/have_you_ever_seen_the_rain/stage1_drums.mp3",
+        "audio/have_you_ever_seen_the_rain/stage2_drums_bass.mp3",
+        "audio/have_you_ever_seen_the_rain/stage3_drums_bass_guitar.mp3",
+        "audio/have_you_ever_seen_the_rain/stage4_drums_bass_guitar_piano.mp3",
+        "audio/have_you_ever_seen_the_rain/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/have_you_ever_seen_the_rain/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/have_you_ever_seen_the_rain/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "la_bachata",
+      "title": "La Bachata",
+      "artists": [
+        "Manuel Turizo"
+      ],
+      "stages": [
+        "audio/la_bachata/stage1_drums.mp3",
+        "audio/la_bachata/stage2_drums_bass.mp3",
+        "audio/la_bachata/stage3_drums_bass_guitar.mp3",
+        "audio/la_bachata/stage4_drums_bass_guitar_piano.mp3",
+        "audio/la_bachata/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/la_bachata/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/la_bachata/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_took_a_pill_in_ibiza",
+      "title": "I Took A Pill In Ibiza",
+      "artists": [
+        "Mike Posner"
+      ],
+      "stages": [
+        "audio/i_took_a_pill_in_ibiza/stage1_drums.mp3",
+        "audio/i_took_a_pill_in_ibiza/stage2_drums_bass.mp3",
+        "audio/i_took_a_pill_in_ibiza/stage3_drums_bass_guitar.mp3",
+        "audio/i_took_a_pill_in_ibiza/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_took_a_pill_in_ibiza/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_took_a_pill_in_ibiza/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_took_a_pill_in_ibiza/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "see_you_again",
+      "title": "See You Again",
+      "artists": [
+        "Wiz Khalifa"
+      ],
+      "stages": [
+        "audio/see_you_again/stage1_drums.mp3",
+        "audio/see_you_again/stage2_drums_bass.mp3",
+        "audio/see_you_again/stage3_drums_bass_guitar.mp3",
+        "audio/see_you_again/stage4_drums_bass_guitar_piano.mp3",
+        "audio/see_you_again/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/see_you_again/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/see_you_again/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "feel_good_inc",
+      "title": "Feel Good Inc",
+      "artists": [
+        "Gorillaz"
+      ],
+      "stages": [
+        "audio/feel_good_inc/stage1_drums.mp3",
+        "audio/feel_good_inc/stage2_drums_bass.mp3",
+        "audio/feel_good_inc/stage3_drums_bass_guitar.mp3",
+        "audio/feel_good_inc/stage4_drums_bass_guitar_piano.mp3",
+        "audio/feel_good_inc/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/feel_good_inc/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/feel_good_inc/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "call_out_my_name",
+      "title": "Call Out My Name",
+      "artists": [
+        "The Weeknd"
+      ],
+      "stages": [
+        "audio/call_out_my_name/stage1_drums.mp3",
+        "audio/call_out_my_name/stage2_drums_bass.mp3",
+        "audio/call_out_my_name/stage3_drums_bass_guitar.mp3",
+        "audio/call_out_my_name/stage4_drums_bass_guitar_piano.mp3",
+        "audio/call_out_my_name/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/call_out_my_name/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/call_out_my_name/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "lush_life",
+      "title": "Lush Life",
+      "artists": [
+        "Zara Larsson"
+      ],
+      "stages": [
+        "audio/lush_life/stage1_drums.mp3",
+        "audio/lush_life/stage2_drums_bass.mp3",
+        "audio/lush_life/stage3_drums_bass_guitar.mp3",
+        "audio/lush_life/stage4_drums_bass_guitar_piano.mp3",
+        "audio/lush_life/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/lush_life/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/lush_life/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "maps",
+      "title": "Maps",
+      "artists": [
+        "Maroon 5"
+      ],
+      "stages": [
+        "audio/maps/stage1_drums.mp3",
+        "audio/maps/stage2_drums_bass.mp3",
+        "audio/maps/stage3_drums_bass_guitar.mp3",
+        "audio/maps/stage4_drums_bass_guitar_piano.mp3",
+        "audio/maps/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/maps/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/maps/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "moonlight",
+      "title": "Moonlight",
+      "artists": [
+        "XXXTENTACION"
+      ],
+      "stages": [
+        "audio/moonlight/stage1_drums.mp3",
+        "audio/moonlight/stage2_drums_bass.mp3",
+        "audio/moonlight/stage3_drums_bass_guitar.mp3",
+        "audio/moonlight/stage4_drums_bass_guitar_piano.mp3",
+        "audio/moonlight/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/moonlight/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/moonlight/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "kiss_me_more",
+      "title": "Kiss Me More",
+      "artists": [
+        "Doja Cat"
+      ],
+      "stages": [
+        "audio/kiss_me_more/stage1_drums.mp3",
+        "audio/kiss_me_more/stage2_drums_bass.mp3",
+        "audio/kiss_me_more/stage3_drums_bass_guitar.mp3",
+        "audio/kiss_me_more/stage4_drums_bass_guitar_piano.mp3",
+        "audio/kiss_me_more/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/kiss_me_more/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/kiss_me_more/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_m_good_blue",
+      "title": "I'm Good (Blue)",
+      "artists": [
+        "David Guetta"
+      ],
+      "stages": [
+        "audio/i_m_good_blue/stage1_drums.mp3",
+        "audio/i_m_good_blue/stage2_drums_bass.mp3",
+        "audio/i_m_good_blue/stage3_drums_bass_guitar.mp3",
+        "audio/i_m_good_blue/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_m_good_blue/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_m_good_blue/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_m_good_blue/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "don_t_let_me_down",
+      "title": "Don't Let Me Down",
+      "artists": [
+        "The Chainsmokers"
+      ],
+      "stages": [
+        "audio/don_t_let_me_down/stage1_drums.mp3",
+        "audio/don_t_let_me_down/stage2_drums_bass.mp3",
+        "audio/don_t_let_me_down/stage3_drums_bass_guitar.mp3",
+        "audio/don_t_let_me_down/stage4_drums_bass_guitar_piano.mp3",
+        "audio/don_t_let_me_down/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/don_t_let_me_down/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/don_t_let_me_down/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_nights",
+      "title": "The Nights",
+      "artists": [
+        "Avicii"
+      ],
+      "stages": [
+        "audio/the_nights/stage1_drums.mp3",
+        "audio/the_nights/stage2_drums_bass.mp3",
+        "audio/the_nights/stage3_drums_bass_guitar.mp3",
+        "audio/the_nights/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_nights/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_nights/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_nights/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "faded",
+      "title": "Faded",
+      "artists": [
+        "Alan Walker"
+      ],
+      "stages": [
+        "audio/faded/stage1_drums.mp3",
+        "audio/faded/stage2_drums_bass.mp3",
+        "audio/faded/stage3_drums_bass_guitar.mp3",
+        "audio/faded/stage4_drums_bass_guitar_piano.mp3",
+        "audio/faded/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/faded/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/faded/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "rolling_in_the_deep",
+      "title": "Rolling in the Deep",
+      "artists": [
+        "Adele"
+      ],
+      "stages": [
+        "audio/rolling_in_the_deep/stage1_drums.mp3",
+        "audio/rolling_in_the_deep/stage2_drums_bass.mp3",
+        "audio/rolling_in_the_deep/stage3_drums_bass_guitar.mp3",
+        "audio/rolling_in_the_deep/stage4_drums_bass_guitar_piano.mp3",
+        "audio/rolling_in_the_deep/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/rolling_in_the_deep/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/rolling_in_the_deep/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "the_box",
+      "title": "The Box",
+      "artists": [
+        "Roddy Ricch"
+      ],
+      "stages": [
+        "audio/the_box/stage1_drums.mp3",
+        "audio/the_box/stage2_drums_bass.mp3",
+        "audio/the_box/stage3_drums_bass_guitar.mp3",
+        "audio/the_box/stage4_drums_bass_guitar_piano.mp3",
+        "audio/the_box/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/the_box/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/the_box/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "shut_up_and_dance",
+      "title": "Shut Up and Dance",
+      "artists": [
+        "WALK THE MOON"
+      ],
+      "stages": [
+        "audio/shut_up_and_dance/stage1_drums.mp3",
+        "audio/shut_up_and_dance/stage2_drums_bass.mp3",
+        "audio/shut_up_and_dance/stage3_drums_bass_guitar.mp3",
+        "audio/shut_up_and_dance/stage4_drums_bass_guitar_piano.mp3",
+        "audio/shut_up_and_dance/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/shut_up_and_dance/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/shut_up_and_dance/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "why_d_you_only_call_me_when_you_re_high",
+      "title": "Why'd You Only Call Me When You're High?",
+      "artists": [
+        "Arctic Monkeys"
+      ],
+      "stages": [
+        "audio/why_d_you_only_call_me_when_you_re_high/stage1_drums.mp3",
+        "audio/why_d_you_only_call_me_when_you_re_high/stage2_drums_bass.mp3",
+        "audio/why_d_you_only_call_me_when_you_re_high/stage3_drums_bass_guitar.mp3",
+        "audio/why_d_you_only_call_me_when_you_re_high/stage4_drums_bass_guitar_piano.mp3",
+        "audio/why_d_you_only_call_me_when_you_re_high/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/why_d_you_only_call_me_when_you_re_high/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/why_d_you_only_call_me_when_you_re_high/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "a_sky_full_of_stars",
+      "title": "A Sky Full of Stars",
+      "artists": [
+        "Coldplay"
+      ],
+      "stages": [
+        "audio/a_sky_full_of_stars/stage1_drums.mp3",
+        "audio/a_sky_full_of_stars/stage2_drums_bass.mp3",
+        "audio/a_sky_full_of_stars/stage3_drums_bass_guitar.mp3",
+        "audio/a_sky_full_of_stars/stage4_drums_bass_guitar_piano.mp3",
+        "audio/a_sky_full_of_stars/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/a_sky_full_of_stars/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/a_sky_full_of_stars/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_love_you_so",
+      "title": "I Love You So",
+      "artists": [
+        "The Walters"
+      ],
+      "stages": [
+        "audio/i_love_you_so/stage1_drums.mp3",
+        "audio/i_love_you_so/stage2_drums_bass.mp3",
+        "audio/i_love_you_so/stage3_drums_bass_guitar.mp3",
+        "audio/i_love_you_so/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_love_you_so/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_love_you_so/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_love_you_so/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "summertime_sadness",
+      "title": "Summertime Sadness",
+      "artists": [
+        "Lana Del Rey"
+      ],
+      "stages": [
+        "audio/summertime_sadness/stage1_drums.mp3",
+        "audio/summertime_sadness/stage2_drums_bass.mp3",
+        "audio/summertime_sadness/stage3_drums_bass_guitar.mp3",
+        "audio/summertime_sadness/stage4_drums_bass_guitar_piano.mp3",
+        "audio/summertime_sadness/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/summertime_sadness/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/summertime_sadness/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "set_fire_to_the_rain",
+      "title": "Set Fire to the Rain",
+      "artists": [
+        "Adele"
+      ],
+      "stages": [
+        "audio/set_fire_to_the_rain/stage1_drums.mp3",
+        "audio/set_fire_to_the_rain/stage2_drums_bass.mp3",
+        "audio/set_fire_to_the_rain/stage3_drums_bass_guitar.mp3",
+        "audio/set_fire_to_the_rain/stage4_drums_bass_guitar_piano.mp3",
+        "audio/set_fire_to_the_rain/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/set_fire_to_the_rain/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/set_fire_to_the_rain/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "traitor",
+      "title": "traitor",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "stages": [
+        "audio/traitor/stage1_drums.mp3",
+        "audio/traitor/stage2_drums_bass.mp3",
+        "audio/traitor/stage3_drums_bass_guitar.mp3",
+        "audio/traitor/stage4_drums_bass_guitar_piano.mp3",
+        "audio/traitor/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/traitor/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/traitor/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "heather",
+      "title": "Heather",
+      "artists": [
+        "Conan Gray"
+      ],
+      "stages": [
+        "audio/heather/stage1_drums.mp3",
+        "audio/heather/stage2_drums_bass.mp3",
+        "audio/heather/stage3_drums_bass_guitar.mp3",
+        "audio/heather/stage4_drums_bass_guitar_piano.mp3",
+        "audio/heather/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/heather/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/heather/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "dandelions",
+      "title": "Dandelions",
+      "artists": [
+        "Ruth B."
+      ],
+      "stages": [
+        "audio/dandelions/stage1_drums.mp3",
+        "audio/dandelions/stage2_drums_bass.mp3",
+        "audio/dandelions/stage3_drums_bass_guitar.mp3",
+        "audio/dandelions/stage4_drums_bass_guitar_piano.mp3",
+        "audio/dandelions/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/dandelions/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/dandelions/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "september",
+      "title": "September",
+      "artists": [
+        "Earth, Wind & Fire"
+      ],
+      "stages": [
+        "audio/september/stage1_drums.mp3",
+        "audio/september/stage2_drums_bass.mp3",
+        "audio/september/stage3_drums_bass_guitar.mp3",
+        "audio/september/stage4_drums_bass_guitar_piano.mp3",
+        "audio/september/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/september/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/september/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "highway_to_hell",
+      "title": "Highway to Hell",
+      "artists": [
+        "AC/DC"
+      ],
+      "stages": [
+        "audio/highway_to_hell/stage1_drums.mp3",
+        "audio/highway_to_hell/stage2_drums_bass.mp3",
+        "audio/highway_to_hell/stage3_drums_bass_guitar.mp3",
+        "audio/highway_to_hell/stage4_drums_bass_guitar_piano.mp3",
+        "audio/highway_to_hell/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/highway_to_hell/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/highway_to_hell/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "congratulations",
+      "title": "Congratulations",
+      "artists": [
+        "Post Malone"
+      ],
+      "stages": [
+        "audio/congratulations/stage1_drums.mp3",
+        "audio/congratulations/stage2_drums_bass.mp3",
+        "audio/congratulations/stage3_drums_bass_guitar.mp3",
+        "audio/congratulations/stage4_drums_bass_guitar_piano.mp3",
+        "audio/congratulations/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/congratulations/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/congratulations/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sugar",
+      "title": "Sugar",
+      "artists": [
+        "Maroon 5"
+      ],
+      "stages": [
+        "audio/sugar/stage1_drums.mp3",
+        "audio/sugar/stage2_drums_bass.mp3",
+        "audio/sugar/stage3_drums_bass_guitar.mp3",
+        "audio/sugar/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sugar/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sugar/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sugar/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "radioactive",
+      "title": "Radioactive",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "stages": [
+        "audio/radioactive/stage1_drums.mp3",
+        "audio/radioactive/stage2_drums_bass.mp3",
+        "audio/radioactive/stage3_drums_bass_guitar.mp3",
+        "audio/radioactive/stage4_drums_bass_guitar_piano.mp3",
+        "audio/radioactive/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/radioactive/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/radioactive/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_ain_t_worried",
+      "title": "I Ain't Worried",
+      "artists": [
+        "OneRepublic"
+      ],
+      "stages": [
+        "audio/i_ain_t_worried/stage1_drums.mp3",
+        "audio/i_ain_t_worried/stage2_drums_bass.mp3",
+        "audio/i_ain_t_worried/stage3_drums_bass_guitar.mp3",
+        "audio/i_ain_t_worried/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_ain_t_worried/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_ain_t_worried/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_ain_t_worried/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "industry_baby",
+      "title": "INDUSTRY BABY",
+      "artists": [
+        "Lil Nas X"
+      ],
+      "stages": [
+        "audio/industry_baby/stage1_drums.mp3",
+        "audio/industry_baby/stage2_drums_bass.mp3",
+        "audio/industry_baby/stage3_drums_bass_guitar.mp3",
+        "audio/industry_baby/stage4_drums_bass_guitar_piano.mp3",
+        "audio/industry_baby/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/industry_baby/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/industry_baby/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "i_like_me_better",
+      "title": "I Like Me Better",
+      "artists": [
+        "LAUV"
+      ],
+      "stages": [
+        "audio/i_like_me_better/stage1_drums.mp3",
+        "audio/i_like_me_better/stage2_drums_bass.mp3",
+        "audio/i_like_me_better/stage3_drums_bass_guitar.mp3",
+        "audio/i_like_me_better/stage4_drums_bass_guitar_piano.mp3",
+        "audio/i_like_me_better/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/i_like_me_better/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/i_like_me_better/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "titanium",
+      "title": "Titanium",
+      "artists": [
+        "David Guetta"
+      ],
+      "stages": [
+        "audio/titanium/stage1_drums.mp3",
+        "audio/titanium/stage2_drums_bass.mp3",
+        "audio/titanium/stage3_drums_bass_guitar.mp3",
+        "audio/titanium/stage4_drums_bass_guitar_piano.mp3",
+        "audio/titanium/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/titanium/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/titanium/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "deja_vu",
+      "title": "deja vu",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "stages": [
+        "audio/deja_vu/stage1_drums.mp3",
+        "audio/deja_vu/stage2_drums_bass.mp3",
+        "audio/deja_vu/stage3_drums_bass_guitar.mp3",
+        "audio/deja_vu/stage4_drums_bass_guitar_piano.mp3",
+        "audio/deja_vu/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/deja_vu/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/deja_vu/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "ghost",
+      "title": "Ghost",
+      "artists": [
+        "Justin Bieber"
+      ],
+      "stages": [
+        "audio/ghost/stage1_drums.mp3",
+        "audio/ghost/stage2_drums_bass.mp3",
+        "audio/ghost/stage3_drums_bass_guitar.mp3",
+        "audio/ghost/stage4_drums_bass_guitar_piano.mp3",
+        "audio/ghost/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/ghost/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/ghost/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "this_is_what_you_came_for",
+      "title": "This Is What You Came For",
+      "artists": [
+        "Calvin Harris"
+      ],
+      "stages": [
+        "audio/this_is_what_you_came_for/stage1_drums.mp3",
+        "audio/this_is_what_you_came_for/stage2_drums_bass.mp3",
+        "audio/this_is_what_you_came_for/stage3_drums_bass_guitar.mp3",
+        "audio/this_is_what_you_came_for/stage4_drums_bass_guitar_piano.mp3",
+        "audio/this_is_what_you_came_for/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/this_is_what_you_came_for/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/this_is_what_you_came_for/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "a_thousand_years",
+      "title": "a thousand years",
+      "artists": [
+        "Christina Perri"
+      ],
+      "stages": [
+        "audio/a_thousand_years/stage1_drums.mp3",
+        "audio/a_thousand_years/stage2_drums_bass.mp3",
+        "audio/a_thousand_years/stage3_drums_bass_guitar.mp3",
+        "audio/a_thousand_years/stage4_drums_bass_guitar_piano.mp3",
+        "audio/a_thousand_years/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/a_thousand_years/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/a_thousand_years/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "ride",
+      "title": "Ride",
+      "artists": [
+        "Twenty One Pilots"
+      ],
+      "stages": [
+        "audio/ride/stage1_drums.mp3",
+        "audio/ride/stage2_drums_bass.mp3",
+        "audio/ride/stage3_drums_bass_guitar.mp3",
+        "audio/ride/stage4_drums_bass_guitar_piano.mp3",
+        "audio/ride/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/ride/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/ride/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "highest_in_the_room",
+      "title": "HIGHEST IN THE ROOM",
+      "artists": [
+        "Travis Scott"
+      ],
+      "stages": [
+        "audio/highest_in_the_room/stage1_drums.mp3",
+        "audio/highest_in_the_room/stage2_drums_bass.mp3",
+        "audio/highest_in_the_room/stage3_drums_bass_guitar.mp3",
+        "audio/highest_in_the_room/stage4_drums_bass_guitar_piano.mp3",
+        "audio/highest_in_the_room/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/highest_in_the_room/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/highest_in_the_room/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "me_porto_bonito",
+      "title": "Me Porto Bonito",
+      "artists": [
+        "Bad Bunny"
+      ],
+      "stages": [
+        "audio/me_porto_bonito/stage1_drums.mp3",
+        "audio/me_porto_bonito/stage2_drums_bass.mp3",
+        "audio/me_porto_bonito/stage3_drums_bass_guitar.mp3",
+        "audio/me_porto_bonito/stage4_drums_bass_guitar_piano.mp3",
+        "audio/me_porto_bonito/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/me_porto_bonito/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/me_porto_bonito/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "chandelier",
+      "title": "Chandelier",
+      "artists": [
+        "Sia"
+      ],
+      "stages": [
+        "audio/chandelier/stage1_drums.mp3",
+        "audio/chandelier/stage2_drums_bass.mp3",
+        "audio/chandelier/stage3_drums_bass_guitar.mp3",
+        "audio/chandelier/stage4_drums_bass_guitar_piano.mp3",
+        "audio/chandelier/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/chandelier/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/chandelier/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "dynamite",
+      "title": "Dynamite",
+      "artists": [
+        "BTS"
+      ],
+      "stages": [
+        "audio/dynamite/stage1_drums.mp3",
+        "audio/dynamite/stage2_drums_bass.mp3",
+        "audio/dynamite/stage3_drums_bass_guitar.mp3",
+        "audio/dynamite/stage4_drums_bass_guitar_piano.mp3",
+        "audio/dynamite/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/dynamite/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/dynamite/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "livin_on_a_prayer",
+      "title": "Livin' On A Prayer",
+      "artists": [
+        "Bon Jovi"
+      ],
+      "stages": [
+        "audio/livin_on_a_prayer/stage1_drums.mp3",
+        "audio/livin_on_a_prayer/stage2_drums_bass.mp3",
+        "audio/livin_on_a_prayer/stage3_drums_bass_guitar.mp3",
+        "audio/livin_on_a_prayer/stage4_drums_bass_guitar_piano.mp3",
+        "audio/livin_on_a_prayer/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/livin_on_a_prayer/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/livin_on_a_prayer/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "passionfruit",
+      "title": "Passionfruit",
+      "artists": [
+        "Drake"
+      ],
+      "stages": [
+        "audio/passionfruit/stage1_drums.mp3",
+        "audio/passionfruit/stage2_drums_bass.mp3",
+        "audio/passionfruit/stage3_drums_bass_guitar.mp3",
+        "audio/passionfruit/stage4_drums_bass_guitar_piano.mp3",
+        "audio/passionfruit/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/passionfruit/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/passionfruit/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "umbrella",
+      "title": "Umbrella",
+      "artists": [
+        "Rihanna"
+      ],
+      "stages": [
+        "audio/umbrella/stage1_drums.mp3",
+        "audio/umbrella/stage2_drums_bass.mp3",
+        "audio/umbrella/stage3_drums_bass_guitar.mp3",
+        "audio/umbrella/stage4_drums_bass_guitar_piano.mp3",
+        "audio/umbrella/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/umbrella/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/umbrella/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "thunderstruck",
+      "title": "Thunderstruck",
+      "artists": [
+        "AC/DC"
+      ],
+      "stages": [
+        "audio/thunderstruck/stage1_drums.mp3",
+        "audio/thunderstruck/stage2_drums_bass.mp3",
+        "audio/thunderstruck/stage3_drums_bass_guitar.mp3",
+        "audio/thunderstruck/stage4_drums_bass_guitar_piano.mp3",
+        "audio/thunderstruck/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/thunderstruck/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/thunderstruck/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "better_now",
+      "title": "Better Now",
+      "artists": [
+        "Post Malone"
+      ],
+      "stages": [
+        "audio/better_now/stage1_drums.mp3",
+        "audio/better_now/stage2_drums_bass.mp3",
+        "audio/better_now/stage3_drums_bass_guitar.mp3",
+        "audio/better_now/stage4_drums_bass_guitar_piano.mp3",
+        "audio/better_now/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/better_now/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/better_now/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "greedy",
+      "title": "greedy",
+      "artists": [
+        "Tate McRae"
+      ],
+      "stages": [
+        "audio/greedy/stage1_drums.mp3",
+        "audio/greedy/stage2_drums_bass.mp3",
+        "audio/greedy/stage3_drums_bass_guitar.mp3",
+        "audio/greedy/stage4_drums_bass_guitar_piano.mp3",
+        "audio/greedy/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/greedy/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/greedy/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "love_the_way_you_lie",
+      "title": "Love The Way You Lie",
+      "artists": [
+        "Eminem"
+      ],
+      "stages": [
+        "audio/love_the_way_you_lie/stage1_drums.mp3",
+        "audio/love_the_way_you_lie/stage2_drums_bass.mp3",
+        "audio/love_the_way_you_lie/stage3_drums_bass_guitar.mp3",
+        "audio/love_the_way_you_lie/stage4_drums_bass_guitar_piano.mp3",
+        "audio/love_the_way_you_lie/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/love_the_way_you_lie/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/love_the_way_you_lie/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "sign_of_the_times",
+      "title": "Sign of the Times",
+      "artists": [
+        "Harry Styles"
+      ],
+      "stages": [
+        "audio/sign_of_the_times/stage1_drums.mp3",
+        "audio/sign_of_the_times/stage2_drums_bass.mp3",
+        "audio/sign_of_the_times/stage3_drums_bass_guitar.mp3",
+        "audio/sign_of_the_times/stage4_drums_bass_guitar_piano.mp3",
+        "audio/sign_of_the_times/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/sign_of_the_times/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/sign_of_the_times/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "heathens",
+      "title": "Heathens",
+      "artists": [
+        "Twenty One Pilots"
+      ],
+      "stages": [
+        "audio/heathens/stage1_drums.mp3",
+        "audio/heathens/stage2_drums_bass.mp3",
+        "audio/heathens/stage3_drums_bass_guitar.mp3",
+        "audio/heathens/stage4_drums_bass_guitar_piano.mp3",
+        "audio/heathens/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/heathens/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/heathens/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "tit_me_pregunt",
+      "title": "Tití Me Preguntó",
+      "artists": [
+        "Bad Bunny"
+      ],
+      "stages": [
+        "audio/tit_me_pregunt/stage1_drums.mp3",
+        "audio/tit_me_pregunt/stage2_drums_bass.mp3",
+        "audio/tit_me_pregunt/stage3_drums_bass_guitar.mp3",
+        "audio/tit_me_pregunt/stage4_drums_bass_guitar_piano.mp3",
+        "audio/tit_me_pregunt/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/tit_me_pregunt/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/tit_me_pregunt/stage7_full.mp3"
+      ]
+    },
+    {
+      "id": "thank_u_next",
+      "title": "thank u, next",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "stages": [
+        "audio/thank_u_next/stage1_drums.mp3",
+        "audio/thank_u_next/stage2_drums_bass.mp3",
+        "audio/thank_u_next/stage3_drums_bass_guitar.mp3",
+        "audio/thank_u_next/stage4_drums_bass_guitar_piano.mp3",
+        "audio/thank_u_next/stage5_drums_bass_guitar_piano_other.mp3",
+        "audio/thank_u_next/stage6_drums_bass_guitar_piano_other_vocals.mp3",
+        "audio/thank_u_next/stage7_full.mp3"
+      ]
+    }
+  ]
+}
