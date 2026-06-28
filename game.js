@@ -30,9 +30,17 @@ function parseURLParams() {
 
     if (mode === "random") {
         state.mode = "random";
-    } else if (mode === "custom" && song) {
+    } else if (mode === "custom" && song !== null) {
         state.mode = "custom";
-        state.customSongId = song;
+        
+        // Parse the song index instead of the ID
+        const songIndex = parseInt(song, 10);
+        if (!isNaN(songIndex) && songIndex >= 0 && songIndex < state.songs.length) {
+            state.customSongId = state.songs[songIndex].id;
+        } else {
+            console.warn("Invalid custom song index:", songIndex);
+            state.customSongId = null;
+        }
     } else {
         state.mode = "daily";
     }
@@ -376,7 +384,12 @@ function refreshCustomLink() {
     const linkEl = $("custom-link");
     if (!picker || !linkEl) return;
     const base = window.location.origin + window.location.pathname;
-    linkEl.value = `${base}?mode=custom&song=${picker.value}`;
+
+    // Find the index of the selected song to hide the actual ID
+    const songIndex = state.songs.findIndex(s => s.id === picker.value);
+
+    // Use the index number instead of the name in the URL
+    linkEl.value = `${base}?mode=custom&song=${songIndex}`;
 }
 
 function copyCustomLink() {
