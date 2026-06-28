@@ -110,11 +110,14 @@ function playCurrentClue() {
     if (!state.currentSong || state.gameOver) return;
 
     // Safety check: Ensure the stage exists in the JSON
-    const stagePath = state.currentSong.stages ? state.currentSong.stages[state.clueIndex] : null;
-    if (!stagePath) {
+    const basePath = state.currentSong.stages ? state.currentSong.stages[state.clueIndex] : null;
+    if (!basePath) {
         setFeedback("Audio file missing for this clue. Try skipping.", "error");
         return;
     }
+
+    // CACHE-BUSTER: Adds a timestamp to force Safari/Chrome to ignore old failed attempts
+    const stagePath = basePath + "?v=" + Date.now();
 
     stopAudio();
     state.audio = new Audio(stagePath);
@@ -126,8 +129,8 @@ function playCurrentClue() {
     });
 
     state.audio.play().catch(err => {
-        console.warn("Audio playback error:", err);
-        setFeedback("Could not play audio. File might be missing on GitHub.", "error");
+        console.error("Audio playback error:", err);
+        setFeedback("Could not play audio. Check Console for details.", "error");
         state.isPlaying = false;
         renderTrackPanel();
     });
